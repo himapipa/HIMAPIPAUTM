@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMAPIPA UTM | Inovatif & Kolaboratif</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://via.placeholder.com/32/10B44A/FFFFFF?text=H">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#10B44A',
+                        secondary: '#00A6E7',
+                        accent: '#C0007A',
+                        warning: '#FACC15',
+                        darkSoft: '#0F172A',
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        inter: ['Inter', 'sans-serif'],
+                        montserrat: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white text-darkSoft font-inter">
+
+    <!-- Scroll Progress -->
+    <div id="progress-bar" class="scroll-progress w-0"></div>
+
+    <!-- Top Rainbow Line -->
+    <div class="rainbow-accent fixed top-0 z-[60]"></div>
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 transition-all duration-300 py-4 glass-nav" id="navbar">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3">
+                <img src="https://i.postimg.cc/HnjvgF62/HIMAPIPA.png" alt="Logo HIMAPIPA" class="w-10 h-10">
+                <div class="flex flex-col">
+                    <span class="font-montserrat font-bold text-lg tracking-tight leading-none">HIMAPIPA <span
+                            class="text-primary">UTM</span></span>
+                    <span class="text-[10px] text-gray-500 font-medium uppercase tracking-widest">Scientific
+                        Identity</span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div
+                class="hidden lg:flex items-center space-x-7 font-poppins text-[13px] font-semibold uppercase tracking-wider">
+                <a href="index.html" class="hover:text-primary transition-colors">Beranda</a>
+            </div>
+            <!-- Mobile Toggle -->
+            <button class="lg:hidden text-2xl text-darkSoft" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="bph" class="relative py-24 overflow-hidden">
+
+        <!-- Background -->
+        <div class="absolute inset-0 -z-10">
+            <img src="https://i.postimg.cc/W30NLsNR/Whats-App-Image-2026-05-25-at-17-35-31.jpg"
+                class="w-full h-full object-cover">
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-white/90 backdrop-blur-sm"></div>
+        </div>
+
+        <div class="container mx-auto px-6">
+
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-montserrat font-extrabold mb-4">
+                    INFOKOM
+                </h2>
+
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <!-- Ketua -->
+                <div class="text-center group" data-aos="fade-up">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/Pq5cNTGb/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d.webp"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Andhika Putra Suryaka</h4>
+                    <span class="text-primary text-sm font-medium">Ketua Divisi</span>
+                </div>
+                <!-- Wakil -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/mrgqhBxy/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d-(1).webp"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Ismi Retno Handayani</h4>
+                    <span class="text-primary text-sm font-medium">Sekertaris Divisi</span>
+                </div>
+                <!-- Sekre -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/1z3T4sxH/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d-(2).webp"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Nadiyah Fitri Ramadhani</h4>
+                    <span class="text-primary text-sm font-medium">Anggota Divisi</span>
+                </div>
+                <!-- Sekre 2 -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/43xMnsCb/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d-(3).webp"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Eli Andriani</h4>
+                    <span class="text-primary text-sm font-medium">Anggota Divisi</span>
+                </div>
+                <!-- Bendahara -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/XvYhX4MC/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d-(4).webp"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Tanwiratul Fuadah</h4>
+                    <span class="text-primary text-sm font-medium">Anggota Divisi</span>
+                </div>
+                <!-- Bendahara 2-->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/k5gZDqrt/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d-(5).webp"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Asiyatun Noviana</h4>
+                    <span class="text-primary text-sm font-medium">Anggota Divisi</span>
+                </div>
+                <!-- Ketua -->
+                <div class="text-center group" data-aos="fade-up">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/g025rm9L/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d-(6).webp"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Ezza Divania Fitriansyah</h4>
+                    <span class="text-primary text-sm font-medium">Anggota Divisi</span>
+                </div>
+                <!-- Wakil -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/GpmN9d08/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d-(7).webp"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Robi Sugara</h4>
+                    <span class="text-primary text-sm font-medium">Anggota Divisi</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-100 pt-20 pb-10 relative overflow-hidden">
+        <div class="container mx-auto px-6">
+            <!-- Neon Line -->
+            <div class="absolute top-0 left-0 w-full rainbow-accent opacity-50"></div>
+            <div
+                class="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-[12px] text-gray-400">
+                <p>&copy; 2024 HIMAPIPA UTM. All Rights Reserved.</p>
+                <div class="flex gap-6">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

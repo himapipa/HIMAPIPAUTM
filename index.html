@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMAPIPA UTM | Inovatif & Kolaboratif</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://via.placeholder.com/32/10B44A/FFFFFF?text=H">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#10B44A',
+                        secondary: '#00A6E7',
+                        accent: '#C0007A',
+                        warning: '#FACC15',
+                        darkSoft: '#0F172A',
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        inter: ['Inter', 'sans-serif'],
+                        montserrat: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white text-darkSoft font-inter">
+
+    <!-- Scroll Progress -->
+    <div id="progress-bar" class="scroll-progress w-0"></div>
+
+    <!-- Top Rainbow Line -->
+    <div class="rainbow-accent fixed top-0 z-[60]"></div>
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 transition-all duration-300 py-4 glass-nav" id="navbar">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3">
+                <img src="https://i.postimg.cc/HnjvgF62/HIMAPIPA.png" alt="Logo HIMAPIPA" class="w-10 h-10">
+                <div class="flex flex-col">
+                    <span class="font-montserrat font-bold text-lg tracking-tight leading-none">HIMAPIPA <span
+                            class="text-primary">UTM</span></span>
+                    <span class="text-[10px] text-gray-500 font-medium uppercase tracking-widest">Scientific
+                        Identity</span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div
+                class="hidden lg:flex items-center space-x-7 font-poppins text-[13px] font-semibold uppercase tracking-wider">
+                <a href="#beranda" class="hover:text-primary transition-colors">Beranda</a>
+                <a href="#tentang" class="hover:text-primary transition-colors">Tentang</a>
+                <a href="#bph" class="hover:text-primary transition-colors">BPH</a>
+                <a href="#divisi" class="hover:text-primary transition-colors">Divisi</a>
+                <a href="#proker" class="hover:text-primary transition-colors">Proker</a>
+                <a href="#prestasi" class="hover:text-primary transition-colors">Prestasi</a>
+                <a href="#kontak"
+                    class="px-5 py-2 bg-primary text-white rounded-full hover:bg-opacity-90 transition-all shadow-md">Kontak</a>
+            </div>
+
+            <!-- Mobile Toggle -->
+            <button class="lg:hidden text-2xl text-darkSoft" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="relative pt-32 pb-20 overflow-hidden hero-glow">
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="text-primary font-bold tracking-[0.2em] mb-4 text-sm uppercase">Organisasi Mahasiswa</h2>
+                <h1 class="text-5xl lg:text-7xl font-montserrat font-extrabold leading-tight mb-6">
+                    HIMAPIPA
+                    <span class="text-secondary underline decoration-warning decoration-4 underline-offset-8">UTM</span>
+                </h1>
+                <p class="text-gray-600 text-lg mb-8 leading-relaxed max-w-xl">
+                    Wadah pengembangan mahasiswa Pendidikan Ilmu Pengetahuan Alam yang aktif, inovatif, kreatif,
+                    kolaboratif, dan beridentitas ilmiah melalui perpaduan etnosains dan teknologi.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://whatsapp.com/channel/0029VbBlbwmFHWq7ZUX9Az11" target="_blank"
+                        class="px-8 py-4 bg-primary text-white rounded-xl font-bold hover:scale-105 transition-all shadow-lg flex items-center gap-2">
+                        <i class="fab fa-whatsapp"></i> Gabung Saluran WA
+                    </a>
+                    <a href="#tentang"
+                        class="px-8 py-4 border-2 border-gray-100 rounded-xl font-bold hover:border-primary transition-all">Pelajari
+                        Lebih Lanjut</a>
+                </div>
+
+                <!-- Statistik -->
+                <div class="flex gap-10 mt-12 border-t border-gray-100 pt-8">
+                    <div>
+                        <span class="block text-3xl font-bold text-darkSoft">6</span>
+                        <span class="text-xs text-gray-500 uppercase font-semibold">Divisi Aktif</span>
+                    </div>
+                    <div>
+                        <span class="block text-3xl font-bold text-darkSoft">25+</span>
+                        <span class="text-xs text-gray-500 uppercase font-semibold">Program Kerja</span>
+                    </div>
+                    <div>
+                        <span class="block text-3xl font-bold text-darkSoft">500+</span>
+                        <span class="text-xs text-gray-500 uppercase font-semibold">Anggota</span>
+                    </div>
+                </div>
+            </div>
+            <a href="see all proker.html" class="relative flex justify-center" data-aos="zoom-in"
+                data-aos-duration="1000">
+                <div class="w-full max-w-md relative">
+                    <div class="absolute inset-0 bg-primary opacity-10 blur-[80px] rounded-full"></div>
+                    <img src="https://i.postimg.cc/xTzW661w/Whats-App-Image-2026-05-25-at-15-24-40.jpg" alt="HIMAPIPA"
+                        class="relative z-10 floating rounded-[40px] shadow-2xl object-cover">
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Tentang Section -->
+    <section id="tentang" class="relative py-24 bg-cover bg-center bg-no-repeat"
+        style="background-image: url('https://i.postimg.cc/W30NLsNR/Whats-App-Image-2026-05-25-at-17-35-31.jpg');">
+
+        <div class="absolute inset-0 bg-black/75"></div>
+
+        <div class="container mx-auto px-6 relative z-10 text-white">
+            <div class="max-w-3xl mx-auto text-center lg:text-left" data-aos="fade-up">
+                <h3 class="text-primary font-bold text-sm uppercase tracking-widest mb-2">Tentang Kami</h3>
+                <h2 class="text-4xl font-montserrat font-extrabold mb-6 text-white">Membangun Masa Depan <br> Pendidikan
+                    Sains</h2>
+                <p class="text-gray-300 mb-12 text-lg leading-relaxed">
+                    HIMA PIPA UTM (Himpunan Mahasiswa Pendidikan IPA Universitas Trunojoyo Madura) adalah organisasi
+                    kemahasiswaan yang menjadi rumah bagi aspirasi dan pengembangan diri mahasiswa Pendidikan IPA di
+                    Universitas Trunojoyo Madura.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-8 text-left">
+                    <div class="flex gap-4 bg-white/5 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
+                        <div
+                            class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center text-primary shrink-0 text-xl">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-white mb-1">Visi Organisasi</h4>
+                            <p class="text-gray-300 text-sm leading-relaxed">Menjadikan HIMAPIPA sebagai organisasi yang
+                                unggul, profesional, dan beridentitas ilmiah tinggi.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 bg-white/5 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
+                        <div
+                            class="w-12 h-12 bg-secondary/20 rounded-lg flex items-center justify-center text-secondary shrink-0 text-xl">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-white mb-1">Misi Utama</h4>
+                            <p class="text-gray-300 text-sm leading-relaxed">Menyelenggarakan kegiatan akademik inovatif
+                                dan mempererat kekeluargaan mahasiswa IPA.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sambutan Ketua -->
+    <section class="relative py-24 overflow-hidden">
+
+        <!-- Background -->
+        <div class="absolute inset-0 -z-10">
+            <img src="https://i.postimg.cc/W30NLsNR/Whats-App-Image-2026-05-25-at-17-35-31.jpg"
+                class="w-full h-full object-cover">
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-white/85 backdrop-blur-sm"></div>
+        </div>
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto bg-white p-10 rounded-[30px] shadow-sm border border-gray-100 flex flex-col md:flex-row gap-10 items-center"
+                data-aos="fade-up">
+                <div class="grid grid-cols-2 gap-4 w-full max-w-md">
+
+                    <div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
+                        <img src="https://i.postimg.cc/NjxjLsT3/Whats-App-Image-2026-05-25-at-17-25-58.jpg"
+                            class="w-full h-full object-cover">
+                    </div>
+
+                    <div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
+                        <img src="https://i.postimg.cc/1t4sYyL3/Whats-App-Image-2026-05-25-at-16-42-49.jpg"
+                            class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-quote-left text-3xl text-primary/30 mb-4 block"></i>
+                    <p class="text-xl italic text-gray-700 leading-relaxed mb-6">
+                        "Pendidikan IPA adalah landasan teknologi. Di HIMAPIPA, kita belajar bahwa sains tidak hanya di
+                        laboratorium, tapi juga dalam pengabdian dan inovasi sosial."
+                    </p>
+                    <h4 class="font-bold text-lg">M. Amien Rais, M.Pd</h4>
+                    <span class="text-primary font-semibold text-sm">Pembina HIMAPIPA 2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BPH Grid -->
+    <section id="bph" class="relative py-24 overflow-hidden">
+
+        <!-- Background -->
+        <div class="absolute inset-0 -z-10">
+            <img src="https://i.postimg.cc/W30NLsNR/Whats-App-Image-2026-05-25-at-17-35-31.jpg"
+                class="w-full h-full object-cover">
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-white/90 backdrop-blur-sm"></div>
+        </div>
+
+        <div class="container mx-auto px-6">
+
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-montserrat font-extrabold mb-4">
+                    Badan Pengurus Harian
+                </h2>
+
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <!-- Ketua -->
+                <div class="text-center group" data-aos="fade-up">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/gcN2DBQN/Whats-App-Image-2026-05-25-at-16-08-03.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="https://www.instagram.com/_lkhan71?igsh=MWZoc3ZiNDJkamY5bw=="><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Lukma Arohman</h4>
+                    <span class="text-primary text-sm font-medium">Ketua Umum</span>
+                </div>
+                <!-- Wakil -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/bY3wTFW1/Whats-App-Image-2026-05-25-at-16-08-02-(1).jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Amirullah Eka Saputra</h4>
+                    <span class="text-primary text-sm font-medium">Wakil Ketua</span>
+                </div>
+                <!-- Sekre -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/c1XLm52T/Whats-App-Image-2026-05-25-at-16-08-02.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Nur Fajirotun Diniaty</h4>
+                    <span class="text-primary text-sm font-medium">Sekretaris</span>
+                </div>
+                <!-- Sekre 2 -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/zD0GjP6g/Whats-App-Image-2026-05-25-at-16-08-01-(1).jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Sofiyah</h4>
+                    <span class="text-primary text-sm font-medium">Sekretaris 2</span>
+                </div>
+                <!-- Bendahara -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/FFDHZn8c/Whats-App-Image-2026-05-25-at-16-08-01.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Rosyidah Putri Desandra</h4>
+                    <span class="text-primary text-sm font-medium">Bendahara</span>
+                </div>
+                <!-- Bendahara 2-->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/05cyfHFS/Whats-App-Image-2026-05-25-at-16-08-00.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Andrea Putri Azahra</h4>
+                    <span class="text-primary text-sm font-medium">Bendahara 2</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divisi Section -->
+    <section id="divisi" class="py-24 bg-darkSoft text-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row justify-between items-end mb-16 gap-6">
+                <div class="lg:w-1/2">
+
+                    <h3 class="text-primary font-bold text-sm uppercase mb-2">Departemen & Divisi</h3>
+                    <h2 class="text-4xl font-montserrat font-extrabold leading-tight">6 Pilar Strategis <br> Pergerakan
+                        HIMAPIPA</h2>
+                </div>
+                <p class="lg:w-1/3 text-gray-400 text-sm">Setiap divisi memiliki peran krusial dalam mencetak mahasiswa
+                    Pendidikan IPA yang kompetitif di era digital.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Divisi Kaderisasi -->
+                <a href="kaderisasi.html"
+                    class="p-8 border border-white/10 rounded-2xl hover:bg-white/5 transition-all group"
+                    data-aos="zoom-in">
+                    <div
+                        class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Kaderisasi</h4>
+                    <p class="text-gray-400 text-sm">Pintu gerbang pembentukan karakter dan integritas anggota baru
+                        HIMAPIPA.</p>
+                </a>
+                <!-- Divisi PPA -->
+                <a href="ppa.html" class="p-8 border border-white/10 rounded-2xl hover:bg-white/5 transition-all group"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <div
+                        class="w-14 h-14 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">PPA</h4>
+                    <p class="text-gray-400 text-sm">Pengembangan Penelitian dan Akademik untuk mengasah intelektual
+                        ilmiah.</p>
+                </a>
+                <!-- Divisi Infokom -->
+                <a href="infokom.html"
+                    class="p-8 border border-white/10 rounded-2xl hover:bg-white/5 transition-all group"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <div
+                        class="w-14 h-14 bg-accent/10 text-accent rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Infokom</h4>
+                    <p class="text-gray-400 text-sm">Media informasi dan komunikasi kreatif organisasi melalui kanal
+                        digital.</p>
+                </a>
+                <!-- Divisi PMB -->
+                <a href="pmb.html" class="p-8 border border-white/10 rounded-2xl hover:bg-white/5 transition-all group"
+                    data-aos="zoom-in">
+                    <div
+                        class="w-14 h-14 bg-warning/10 text-warning rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">PMB</h4>
+                    <p class="text-gray-400 text-sm">Pengembangan Minat dan Bakat untuk mendukung potensi non-akademik.
+                    </p>
+                </a>
+                <!-- Divisi Keagamaan -->
+                <a href="keagamaan.html"
+                    class="p-8 border border-white/10 rounded-2xl hover:bg-white/5 transition-all group"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <div
+                        class="w-14 h-14 bg-green-400/10 text-green-400 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Keagamaan</h4>
+                    <p class="text-gray-400 text-sm">Menjaga nilai spiritualitas dan religiusitas dalam setiap gerak
+                        langkah.</p>
+                </a>
+                <!-- Divisi KWU -->
+                <a href="kewirausahaan.html"
+                    class="p-8 border border-white/10 rounded-2xl hover:bg-white/5 transition-all group"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <div
+                        class="w-14 h-14 bg-pink-500/10 text-pink-500 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Kewirausahaan</h4>
+                    <p class="text-gray-400 text-sm">Mandiri secara finansial melalui inovasi unit usaha kreatif
+                        mahasiswa.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Kerja Section (Portal News Layout) -->
+    <section id="proker" class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center mb-16">
+                <div>
+                    <h2 class="text-3xl font-montserrat font-extrabold">Program Kerja</h2>
+                    <p class="text-gray-500">Kegiatan rutin dan insidental HIMAPIPA</p>
+                </div>
+                <a href="see all proker.html"
+                    class="text-primary font-bold flex items-center gap-2 hover:gap-4 transition-all">Lihat Semua <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- News Card 1 -->
+                <div class="card-news bg-white rounded-2xl overflow-hidden border border-gray-100 transition-all duration-300"
+                    data-aos="fade-up">
+
+                    <!-- WRAPPER -->
+                    <div class="relative h-[420px] overflow-hidden">
+
+                        <!-- FOTO -->
+                        <img src="https://i.postimg.cc/W30NLsNR/Whats-App-Image-2026-05-25-at-17-35-31.jpg"
+                            class="w-full h-full object-cover cursor-pointer" onclick="toggleOverlay('overlay1')">
+
+                        <!-- JUDUL -->
+                        <div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent">
+
+                            <span
+                                class="text-[10px] text-primary font-bold uppercase tracking-widest bg-white/10 px-2 py-1 rounded">
+                                Akademik
+                            </span>
+
+                            <h4 class="text-2xl font-bold text-white mt-3 leading-tight">
+                                Seminar Nasional Pendidikan IPA 2024
+                            </h4>
+                        </div>
+
+                        <!-- OVERLAY -->
+                        <div id="overlay1" onclick="toggleOverlay('overlay1')"
+                            class="absolute inset-0 bg-black/30 backdrop-blur-sm text-white p-6 flex flex-col justify-end transition-all duration-500"
+                            style="opacity:0; visibility:hidden;">
+
+                            <div class="overlay-content transition-all duration-500"
+                                style="transform: translateY(40px);">
+
+                                <span
+                                    class="text-[10px] text-primary font-bold uppercase tracking-widest bg-white/10 px-2 py-1 rounded">
+                                    Akademik
+                                </span>
+
+                                <h4 class="text-2xl font-bold mt-3 mb-3">
+                                    Seminar Nasional Pendidikan IPA 2024
+                                </h4>
+
+                                <p class="text-sm text-gray-200 mb-4">
+                                    Ajang diskusi ilmiah tingkat nasional membahas masa depan pendidikan sains.
+                                </p>
+
+                                <div class="flex items-center text-[11px] text-gray-300 gap-4">
+                                    <span>
+                                        <i class="far fa-calendar-alt mr-1"></i>
+                                        12 Okt 2024
+                                    </span>
+
+                                    <span>
+                                        <i class="far fa-user mr-1"></i>
+                                        Admin
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- News Card 2 -->
+                <div class="card-news bg-white rounded-2xl overflow-hidden border border-gray-100 transition-all duration-300"
+                    data-aos="fade-up">
+
+                    <!-- WRAPPER -->
+                    <div class="relative h-[420px] overflow-hidden">
+
+                        <!-- FOTO FULL -->
+                        <img src="https://i.postimg.cc/W30NLsNR/Whats-App-Image-2026-05-25-at-17-35-31.jpg"
+                            class="w-full h-full object-cover cursor-pointer" onclick="toggleOverlay('overlay2')">
+                    </div>
+
+                    <!-- JUDUL DI BAWAH -->
+                    <div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent">
+
+                        <span
+                            class="text-[10px] text-primary font-bold uppercase tracking-widest bg-white/10 px-2 py-1 rounded">
+                            Akademik
+                        </span>
+
+                        <h4 class="text-2xl font-bold text-white mt-3 leading-tight">
+                            Seminar Nasional Pendidikan IPA 2024
+                        </h4>
+                    </div>
+
+                    <!-- OVERLAY DESKRIPSI -->
+                    <div id="overlay2" onclick="toggleOverlay('overlay2')"
+                        class="absolute inset-0 bg-black/30 backdrop-blur-sm text-white p-6 flex flex-col justify-end transition-all duration-500"
+                        style="opacity:0; visibility:hidden;">
+
+                        <div class="overlay-content transition-all duration-500" style="transform: translateY(40px);">
+
+                            <span
+                                class="text-[10px] text-primary font-bold uppercase tracking-widest bg-white/10 px-2 py-1 rounded">
+                                Akademik
+                            </span>
+
+                            <h4 class="text-2xl font-bold mt-3 mb-3">
+                                Seminar Nasional Pendidikan IPA 2024
+                            </h4>
+
+                            <p class="text-sm text-gray-200 mb-4">
+                                Ajang diskusi ilmiah tingkat nasional membahas masa depan pendidikan sains.
+                            </p>
+
+                            <div class="flex items-center text-[11px] text-gray-300 gap-4">
+                                <span>
+                                    <i class="far fa-calendar-alt mr-1"></i>
+                                    12 Okt 2024
+                                </span>
+
+                                <span>
+                                    <i class="far fa-user mr-1"></i>
+                                    Admin
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- News Card 3 -->
+                <div class="card-news bg-white rounded-2xl overflow-hidden border border-gray-100 transition-all duration-300"
+                    data-aos="fade-up">
+
+                    <!-- WRAPPER -->
+                    <div class="relative h-[420px] overflow-hidden">
+
+                        <!-- FOTO -->
+                        <img src="https://i.postimg.cc/W30NLsNR/Whats-App-Image-2026-05-25-at-17-35-31.jpg"
+                            class="w-full h-full object-cover cursor-pointer" onclick="toggleOverlay('overlay3')">
+
+                        <!-- JUDUL -->
+                        <div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent">
+
+                            <span
+                                class="text-[10px] text-primary font-bold uppercase tracking-widest bg-white/10 px-2 py-1 rounded">
+                                Akademik
+                            </span>
+
+                            <h4 class="text-2xl font-bold text-white mt-3 leading-tight">
+                                Seminar Nasional Pendidikan IPA 2024
+                            </h4>
+                        </div>
+
+                        <!-- OVERLAY -->
+                        <div id="overlay3" onclick="toggleOverlay('overlay3')"
+                            class="absolute inset-0 bg-black/30 backdrop-blur-sm text-white p-6 flex flex-col justify-end transition-all duration-500"
+                            style="opacity:0; visibility:hidden;">
+
+                            <div class="overlay-content transition-all duration-500"
+                                style="transform: translateY(40px);">
+
+                                <span
+                                    class="text-[10px] text-primary font-bold uppercase tracking-widest bg-white/10 px-2 py-1 rounded">
+                                    Akademik
+                                </span>
+
+                                <h4 class="text-2xl font-bold mt-3 mb-3">
+                                    Seminar Nasional Pendidikan IPA 2024
+                                </h4>
+
+                                <p class="text-sm text-gray-200 mb-4">
+                                    Ajang diskusi ilmiah tingkat nasional membahas masa depan pendidikan sains.
+                                </p>
+
+                                <div class="flex items-center text-[11px] text-gray-300 gap-4">
+                                    <span>
+                                        <i class="far fa-calendar-alt mr-1"></i>
+                                        12 Okt 2024
+                                    </span>
+
+                                    <span>
+                                        <i class="far fa-user mr-1"></i>
+                                        Admin
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prestasi Section -->
+    <section id="prestasi" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center mb-16">
+
+                <div>
+                    <h3 class="text-primary font-bold text-sm uppercase mb-2">
+                        Prestasi & Karya
+                    </h3>
+
+                    <h2 class="text-4xl font-montserrat font-extrabold">
+                        Prestasi Mahasiswa IPA
+                    </h2>
+                </div>
+
+                <a href="see all prestasi.html"
+                    class="text-primary font-bold flex items-center gap-2 hover:gap-4 transition-all">
+
+                    Lihat Semua
+                    <i class="fas fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+            <div class="grid lg:grid-cols-4 gap-6">
+                <div class="lg:col-span-1 bg-primary p-8 rounded-3xl text-white flex flex-col justify-between overflow-hidden relative"
+                    data-aos="fade-right">
+                    <img id="prestasi-photo" src="https://via.placeholder.com/400x280/ffffff/10B44A?text=Foto+Prestasi"
+                        alt="Foto Prestasi" class="absolute inset-0 w-full h-full object-cover hidden">
+                    <div class="absolute inset-0 bg-black/40 hidden"></div>
+                    <div class="relative z-10" id="prestasi-content">
+                        <h4 id="prestasi-heading" class="text-2xl font-bold mb-4">Statistik Capaian</h4>
+                        <div id="prestasi-stats" class="space-y-6">
+                            <div>
+                                <span class="block text-4xl font-bold">12</span>
+                                <span class="text-xs uppercase opacity-90">Juara Nasional</span>
+                            </div>
+                            <div>
+                                <span class="block text-4xl font-bold">8</span>
+                                <span class="text-xs uppercase opacity-90">Karya Ilmiah Terpublikasi</span>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fas fa-trophy text-6xl opacity-20 relative z-10"></i>
+                </div>
+
+                <div class="lg:col-span-3 grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex gap-4 cursor-pointer"
+                        data-aos="fade-up"
+                        data-prestasi-img="https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg"
+                        data-prestasi-caption="Juara 1 LKTIN Universitas Negeri Malang"
+                        data-prestasi-subcaption="Tim IPA UTM - 2024">
+                        <div
+                            class="w-16 h-16 bg-yellow-400/10 text-yellow-500 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold">Juara 1 LKTIN Universitas Negeri Malang</h5>
+                            <p class="text-xs text-gray-400 mt-1">Tim IPA UTM - 2024</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex gap-4 cursor-pointer" data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-prestasi-img="https://i.postimg.cc/W30NLsNR/Whats-App-Image-2026-05-25-at-17-35-31.jpg"
+                        data-prestasi-caption="Juara 2 Olimpiade Nasional Sains"
+                        data-prestasi-subcaption="Mahasiswa Angkatan 2022">
+                        <div
+                            class="w-16 h-16 bg-blue-400/10 text-blue-500 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold">Juara 2 Olimpiade Nasional Sains</h5>
+                            <p class="text-xs text-gray-400 mt-1">Mahasiswa Angkatan 2022</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex gap-4 cursor-pointer" data-aos="fade-up"
+                        data-aos-delay="200"
+                        data-prestasi-img="https://via.placeholder.com/400x280/22c55e/ffffff?text=PKM-K"
+                        data-prestasi-caption="Hibah PKM-K Kemdikbudristek"
+                        data-prestasi-subcaption="Tim Kewirausahaan - 2023">
+                        <div
+                            class="w-16 h-16 bg-green-400/10 text-green-500 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold">Hibah PKM-K Kemdikbudristek</h5>
+                            <p class="text-xs text-gray-400 mt-1">Tim Kewirausahaan - 2023</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex gap-4 cursor-pointer" data-aos="fade-up"
+                        data-aos-delay="300"
+                        data-prestasi-img="https://via.placeholder.com/400x280/f472b6/ffffff?text=Duta+UTM"
+                        data-prestasi-caption="Top 10 Duta Mahasiswa UTM"
+                        data-prestasi-subcaption="Mahasiswa Angkatan 2021">
+                        <div
+                            class="w-16 h-16 bg-pink-400/10 text-pink-500 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold">Top 10 Duta Mahasiswa UTM</h5>
+                            <p class="text-xs text-gray-400 mt-1">Mahasiswa Angkatan 2021</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex gap-4 cursor-pointer" data-aos="fade-up"
+                        data-aos-delay="400"
+                        data-prestasi-img="https://via.placeholder.com/400x280/8b5cf6/ffffff?text=Kompetisi"
+                        data-prestasi-caption="Juara Kompetisi Inovasi Pendidikan"
+                        data-prestasi-subcaption="Kelompok Mahasiswa - 2024">
+                        <div
+                            class="w-16 h-16 bg-purple-400/10 text-purple-500 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold">Juara Kompetisi Inovasi Pendidikan</h5>
+                            <p class="text-xs text-gray-400 mt-1">Kelompok Mahasiswa - 2024</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex gap-4 cursor-pointer" data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-prestasi-img="https://via.placeholder.com/400x280/ec4899/ffffff?text=Penelitian"
+                        data-prestasi-caption="Publikasi Jurnal Nasional"
+                        data-prestasi-subcaption="Penelitian Tim IPA - 2023">
+                        <div
+                            class="w-16 h-16 bg-rose-400/10 text-rose-500 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold">Publikasi Jurnal Nasional</h5>
+                            <p class="text-xs text-gray-400 mt-1">Penelitian Tim IPA - 2023</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex gap-4 cursor-pointer" data-aos="fade-up"
+                        data-aos-delay="600"
+                        data-prestasi-img="https://via.placeholder.com/400x280/06b6d4/ffffff?text=Seminar"
+                        data-prestasi-caption="Pemakalah Terbaik Seminar Nasional"
+                        data-prestasi-subcaption="Mahasiswa Angkatan 2023">
+                        <div
+                            class="w-16 h-16 bg-cyan-400/10 text-cyan-500 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold">Pemakalah Terbaik Seminar Nasional</h5>
+                            <p class="text-xs text-gray-400 mt-1">Mahasiswa Angkatan 2023</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex gap-4 cursor-pointer" data-aos="fade-up"
+                        data-aos-delay="700"
+                        data-prestasi-img="https://via.placeholder.com/400x280/f59e0b/ffffff?text=Kaderisasi"
+                        data-prestasi-caption="Program Kaderisasi Terbaik"
+                        data-prestasi-subcaption="Divisi Kaderisasi - 2024">
+                        <div
+                            class="w-16 h-16 bg-amber-400/10 text-amber-500 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold">Program Kaderisasi Terbaik</h5>
+                            <p class="text-xs text-gray-400 mt-1">Divisi Kaderisasi - 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Masonry -->
+    <section id="galeri" class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-montserrat font-extrabold mb-4">Galeri Kegiatan</h2>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="space-y-4">
+                    <img src="https://via.placeholder.com/300x400/10B44A/FFFFFF?text=Galeri+1"
+                        class="rounded-xl w-full object-cover shadow-sm hover:scale-[1.02] transition-transform">
+                    <img src="https://via.placeholder.com/300x200/00A6E7/FFFFFF?text=Galeri+2"
+                        class="rounded-xl w-full object-cover shadow-sm hover:scale-[1.02] transition-transform">
+                </div>
+                <div class="space-y-4">
+                    <img src="https://via.placeholder.com/300x200/C0007A/FFFFFF?text=Galeri+3"
+                        class="rounded-xl w-full object-cover shadow-sm hover:scale-[1.02] transition-transform">
+                    <img src="https://via.placeholder.com/300x400/FACC15/000000?text=Galeri+4"
+                        class="rounded-xl w-full object-cover shadow-sm hover:scale-[1.02] transition-transform">
+                </div>
+                <div class="space-y-4">
+                    <img src="https://via.placeholder.com/300x400/10B44A/FFFFFF?text=Galeri+5"
+                        class="rounded-xl w-full object-cover shadow-sm hover:scale-[1.02] transition-transform">
+                    <img src="https://via.placeholder.com/300x200/00A6E7/FFFFFF?text=Galeri+6"
+                        class="rounded-xl w-full object-cover shadow-sm hover:scale-[1.02] transition-transform">
+                </div>
+                <div class="space-y-4">
+                    <img src="https://via.placeholder.com/300x200/C0007A/FFFFFF?text=Galeri+7"
+                        class="rounded-xl w-full object-cover shadow-sm hover:scale-[1.02] transition-transform">
+                    <img src="https://via.placeholder.com/300x400/FACC15/000000?text=Galeri+8"
+                        class="rounded-xl w-full object-cover shadow-sm hover:scale-[1.02] transition-transform">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-gray-50 border-t border-gray-100 pt-20 pb-10 relative overflow-hidden">
+        <!-- Neon Line -->
+        <div class="absolute top-0 left-0 w-full rainbow-accent opacity-50"></div>
+
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-4 gap-12 mb-16">
+                <!-- Col 1 -->
+                <div class="lg:col-span-1">
+                    <img src="https://i.postimg.cc/rsXRzZtN/HIMAPIPA.png" class="mb-6">
+                    <h4 class="font-montserrat font-bold text-xl mb-4">HIMAPIPA <span class="text-primary">UTM</span>
+                    </h4>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">
+                        Menjadi pionir organisasi mahasiswa pendidikan sains yang inovatif dan berbasis pada nilai-nilai
+                        luhur etnosains.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="https://instagram.com/himapipautm"
+                            class="text-gray-400 hover:text-primary transition-colors text-xl"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@himapipautm._"
+                            class="text-gray-400 hover:text-primary transition-colors text-xl"><i
+                                class="fab fa-tiktok"></i></a>
+                        <a href="https://youtube.com/c/HIMAPIPA"
+                            class="text-gray-400 hover:text-primary transition-colors text-xl"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="mailto:himapipa5@gmail.com"
+                            class="text-gray-400 hover:text-primary transition-colors text-xl"><i
+                                class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 2 -->
+                <div>
+                    <h5 class="font-bold mb-6">Navigasi Cepat</h5>
+                    <ul class="space-y-4 text-sm text-gray-500">
+                        <li><a href="#divisi" class="hover:text-primary">Struktur Organisasi</a></li>
+                        <li><a href="#proker" class="hover:text-primary">Kalender Proker</a></li>
+                        <li><a href="#prestasi" class="hover:text-primary">Berita Prestasi</a></li>
+                        <li><a href="#galeri" class="hover:text-primary">Dokumentasi</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3 -->
+                <div>
+                    <h5 class="font-bold mb-6">Kontak & Alamat</h5>
+                    <ul class="space-y-4 text-sm text-gray-500">
+                        <li class="flex gap-3"><i class="fas fa-map-marker-alt text-primary mt-1"></i> RKBD Lt. 2 UTM,
+                            Bangkalan, Madura 69162</li>
+                        <li class="flex gap-3"><i class="fas fa-envelope text-primary mt-1"></i> himapipa5@gmail.com
+                        </li>
+                        <li class="mt-4">
+                            <a href="https://whatsapp.com/channel/0029VbBlbwmFHWq7ZUX9Az11" target="_blank"
+                                class="text-primary font-bold underline">Gabung Saluran WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 4 -->
+                <div>
+                    <h5 class="font-bold mb-6">Lokasi</h5>
+                    <div class="rounded-xl overflow-hidden shadow-sm h-40">
+                        <!-- Google Maps Embed Placeholder -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.334057279328!2d112.7214532!3d-7.1264627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd80396499696c7%3A0x6a00445a40a83e0!2sUniversitas%20Trunojoyo%20Madura!5e0!3m2!1sid!2sid!4v1715000000000"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-[12px] text-gray-400">
+                <p>&copy; 2024 HIMAPIPA UTM. All Rights Reserved.</p>
+                <div class="flex gap-6">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop"
+        class="fixed bottom-8 right-8 w-12 h-12 bg-primary text-white rounded-full shadow-xl flex items-center justify-center opacity-0 transition-all duration-300 translate-y-10 z-[60]">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

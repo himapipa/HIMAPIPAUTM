@@ -1,0 +1,47 @@
+.glass-nav {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.rainbow-accent {
+    height: 3px;
+    background: linear-gradient(90deg, #10B44A, #00A6E7, #C0007A, #FACC15);
+    width: 100%;
+}
+
+.hero-glow {
+    background: radial-gradient(circle at 50% 50%, rgba(16, 180, 74, 0.08) 0%, transparent 50%);
+}
+
+.card-news:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.floating {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.scroll-progress {
+    height: 3px;
+    background: #10B44A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
