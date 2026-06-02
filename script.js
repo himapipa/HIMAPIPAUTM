@@ -50,22 +50,58 @@ document.getElementById('backToTop').onclick = function () {
     });
 };
 
-// Mobile Menu
-document.getElementById('menuBtn').onclick = function () {
-    const menuBtn = document.getElementById('menuBtn');
-    const closeMenuBtn = document.getElementById('closeMenuBtn');
-    const mobileMenu = document.getElementById('mobileMenu');
+// Premium Mobile Menu Logic (Smooth Slide & Fade Animation)
+const menuBtn = document.getElementById('menuBtn');
+const closeMenuBtn = document.getElementById('closeMenuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+const sidebarPanel = document.getElementById('sidebarPanel');
+const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
 
-    menuBtn.onclick = function () {
-        mobileMenu.classList.remove('hidden');
-        mobileMenu.classList.add('flex');
-    };
+function openSidebar() {
+    if (mobileMenu && sidebarPanel) {
+        // Aktifkan backdrop overlay (fade in)
+        mobileMenu.classList.remove('pointer-events-none', 'opacity-0');
+        mobileMenu.classList.add('opacity-100');
 
-    closeMenuBtn.onclick = function () {
-        mobileMenu.classList.add('hidden');
-        mobileMenu.classList.remove('flex');
-    };
-};
+        // Geser panel masuk ke layar (slide in dari kanan)
+        sidebarPanel.classList.remove('translate-x-full');
+        sidebarPanel.classList.add('translate-x-0');
+
+        // Kunci scroll halaman belakang agar tidak bergeser saat sidebar dibuka
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function closeSidebar() {
+    if (mobileMenu && sidebarPanel) {
+        // Hilangkan backdrop overlay (fade out)
+        mobileMenu.classList.remove('opacity-100');
+        mobileMenu.classList.add('opacity-0', 'pointer-events-none');
+
+        // Geser kembali panel ke kanan (slide out)
+        sidebarPanel.classList.remove('translate-x-0');
+        sidebarPanel.classList.add('translate-x-full');
+
+        // Kembalikan scroll halaman belakang ke normal
+        document.body.style.overflow = '';
+    }
+}
+
+// Event Listener Tombol Buka & Tutup
+if (menuBtn) menuBtn.addEventListener('click', openSidebar);
+if (closeMenuBtn) closeMenuBtn.addEventListener('click', closeSidebar);
+
+// Tutup otomatis jika pengguna mengklik area buram (di luar panel menu)
+if (mobileMenu) {
+    mobileMenu.addEventListener('click', (e) => {
+        if (e.target === mobileMenu) closeSidebar();
+    });
+}
+
+// Tutup otomatis jika salah satu menu navigasi diklik
+mobileNavLinks.forEach(link => {
+    link.addEventListener('click', closeSidebar);
+});
 
 // Overlay Toggle
 function toggleOverlay(id) {
@@ -100,33 +136,6 @@ function toggleOverlay(id) {
     }
 }
 
-// Prestasi Card Click - Show Photo
-const prestasiCards = document.querySelectorAll('[data-prestasi-img]');
-const prestasiPhoto = document.getElementById('prestasi-photo');
-const prestasiContent = document.getElementById('prestasi-content');
-let selectedCard = null;
-
-prestasiCards.forEach((card) => {
-    card.addEventListener('click', () => {
-        // Jika card yang diklik sudah dipilih sebelumnya, toggle balik ke statistik
-        if (selectedCard === card) {
-            prestasiPhoto.classList.add('hidden');
-            prestasiContent.classList.remove('hidden');
-            prestasiCards.forEach((item) => {
-                item.classList.remove('border-primary', 'shadow-lg');
-            });
-            selectedCard = null;
-        } else {
-            // Jika card baru diklik, tampilkan foto
-            prestasiPhoto.src = card.dataset.prestasiImg;
-            prestasiPhoto.classList.remove('hidden');
-            prestasiContent.classList.add('hidden');
-
-            prestasiCards.forEach((item) => {
-                item.classList.remove('border-primary', 'shadow-lg');
-            });
-            card.classList.add('border-primary', 'shadow-lg');
-            selectedCard = card;
-        }
-    });
-});
+// Prestasi interactions disabled: statistics panel stays static.
+// Clicks on prestasi cards intentionally have no effect.
+// If you want to re-enable behavior later, re-implement handlers here.
