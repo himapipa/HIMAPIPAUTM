@@ -52,8 +52,19 @@ document.getElementById('backToTop').onclick = function () {
 
 // Mobile Menu
 document.getElementById('menuBtn').onclick = function () {
+    const menuBtn = document.getElementById('menuBtn');
+    const closeMenuBtn = document.getElementById('closeMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
 
-    alert("Menu Mobile Placeholder - Aktifkan Sidebar di sini.");
+    menuBtn.onclick = function () {
+        mobileMenu.classList.remove('hidden');
+        mobileMenu.classList.add('flex');
+    };
+
+    closeMenuBtn.onclick = function () {
+        mobileMenu.classList.add('hidden');
+        mobileMenu.classList.remove('flex');
+    };
 };
 
 // Overlay Toggle
@@ -110,7 +121,7 @@ prestasiCards.forEach((card) => {
             prestasiPhoto.src = card.dataset.prestasiImg;
             prestasiPhoto.classList.remove('hidden');
             prestasiContent.classList.add('hidden');
-            
+
             prestasiCards.forEach((item) => {
                 item.classList.remove('border-primary', 'shadow-lg');
             });
