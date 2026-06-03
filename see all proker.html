@@ -81,8 +81,8 @@
         </div>
     </nav>
 
-    <!-- Prestasi Section -->
-    <section id="prestasi" class="py-24">
+    <!-- Program Kerja Section -->
+    <section id="proker" class="py-24">
         <div class="container mx-auto px-6">
             <div class="mb-16">
                 <h2 class="text-4xl font-montserrat font-extrabold mb-3">Daftar Program Kerja</h2>
@@ -96,31 +96,31 @@
                     data-filter="semua">Semua</button>
 
                 <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-primary text-primary hover:bg-primary hover:text-white"
-                    data-filter="akademik">Akademik</button>
-
-                <button
                     class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-secondary text-secondary hover:bg-secondary hover:text-white"
                     data-filter="kaderisasi">Kaderisasi</button>
-
-                <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-accent text-accent hover:bg-accent hover:text-white"
-                    data-filter="kewirausahaan">Kewirausahaan</button>
-
-                <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white"
-                    data-filter="keagamaan">Keagamaan</button>
 
                 <button
                     class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-purple-500 text-purple-600 hover:bg-purple-500 hover:text-white"
                     data-filter="ppa">PPA</button>
 
                 <button
+                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-cyan-500 text-cyan-600 hover:bg-cyan-500 hover:text-white"
+                    data-filter="infokom">Infokom</button>
+
+                <button
                     class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white"
                     data-filter="pmb">PMB</button>
+
+                <button
+                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white"
+                    data-filter="keagamaan">Keagamaan</button>
+
+                <button
+                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-accent text-accent hover:bg-accent hover:text-white"
+                    data-filter="kewirausahaan">Kewirausahaan</button>
             </div>
 
-            <!-- Prestasi Grid -->
+            <!-- Proker Grid -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="proker-container">
                 <!-- Card akan di-generate oleh JavaScript -->
             </div>
@@ -143,128 +143,230 @@
         </div>
     </footer>
 
+    <div id="mobileMenu"
+        class="fixed inset-0 bg-slate-900/40 backdrop-blur-md z-[9999] opacity-0 pointer-events-none transition-all duration-300 ease-in-out">
+
+        <div id="sidebarPanel"
+            class="absolute top-0 right-0 w-[300px] h-full bg-white shadow-2xl p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300 ease-in-out">
+
+            <div>
+                <div class="flex items-center justify-between pb-6 border-b border-gray-100">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="w-8 h-8 rounded-full bg-[#10B44A] flex items-center justify-center text-white font-bold text-sm">
+                            H</div>
+                        <span class="font-bold text-gray-800 tracking-wide text-sm">HIMAPIPA UTM</span>
+                    </div>
+                    <button id="closeMenuBtn"
+                        class="w-10 h-10 rounded-full flex items-center justify-center text-gray-500 hover:bg-gray-100 hover:text-gray-800 transition-colors">
+                        <i class="fas fa-times text-xl"></i>
+                    </button>
+                </div>
+
+                <nav class="mt-8 flex flex-col gap-2">
+                    <a href="index.html#beranda"
+                        class="mobile-nav-link flex items-center gap-4 px-4 py-3 rounded-xl text-gray-600 hover:text-[#10B44A] hover:bg-green-50/50 font-medium transition-all group">
+                        <i class="fas fa-home text-lg text-gray-400 group-hover:text-[#10B44A] transition-colors"></i>
+                        <span>Beranda</span>
+                    </a>
+                    <a href="index.html#tentang"
+                        class="mobile-nav-link flex items-center gap-4 px-4 py-3 rounded-xl text-gray-600 hover:text-[#10B44A] hover:bg-green-50/50 font-medium transition-all group">
+                        <i
+                            class="fas fa-info-circle text-lg text-gray-400 group-hover:text-[#10B44A] transition-colors"></i>
+                        <span>Tentang</span>
+                    </a>
+                    <a href="index.html#bph"
+                        class="mobile-nav-link flex items-center gap-4 px-4 py-3 rounded-xl text-gray-600 hover:text-[#10B44A] hover:bg-green-50/50 font-medium transition-all group">
+                        <i class="fas fa-users text-lg text-gray-400 group-hover:text-[#10B44A] transition-colors"></i>
+                        <span>Struktur BPH</span>
+                    </a>
+                    <a href="index.html#proker"
+                        class="mobile-nav-link flex items-center gap-4 px-4 py-3 rounded-xl text-gray-600 hover:text-[#10B44A] hover:bg-green-50/50 font-medium transition-all group">
+                        <i class="fas fa-tasks text-lg text-gray-400 group-hover:text-[#10B44A] transition-colors"></i>
+                        <span>Program Kerja</span>
+                    </a>
+
+
+                    <div class="border-t border-gray-100 my-4 pt-4">
+                        <span
+                            class="text-xs font-semibold text-gray-400 uppercase tracking-wider px-4 block mb-2">Halaman
+                            Divisi</span>
+                        <div class="grid grid-cols-2 gap-2 px-2">
+                            <a href="kaderisasi.html"
+                                class="text-xs text-center px-2 py-2 rounded-lg bg-gray-50 text-gray-600 hover:bg-green-50 hover:text-[#10B44A] font-medium transition-all">Kaderisasi</a>
+                            <a href="ppa.html"
+                                class="text-xs text-center px-2 py-2 rounded-lg bg-gray-50 text-gray-600 hover:bg-green-50 hover:text-[#10B44A] font-medium transition-all">PPA</a>
+                            <a href="infokom.html"
+                                class="text-xs text-center px-2 py-2 rounded-lg bg-gray-50 text-gray-600 hover:bg-green-50 hover:text-[#10B44A] font-medium transition-all">Infokom</a>
+                            <a href="pmb.html"
+                                class="text-xs text-center px-2 py-2 rounded-lg bg-gray-50 text-gray-600 hover:bg-green-50 hover:text-[#10B44A] font-medium transition-all">PMB</a>
+                            <a href="keagamaan.html"
+                                class="text-xs text-center px-2 py-2 rounded-lg bg-gray-50 text-gray-600 hover:bg-green-50 hover:text-[#10B44A] font-medium transition-all">Keagamaan</a>
+                            <a href="kewirausahaan.html"
+                                class="text-xs text-center px-2 py-2 rounded-lg bg-gray-50 text-gray-600 hover:bg-green-50 hover:text-[#10B44A] font-medium transition-all">Kewirausahaan</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Footer Sidebar (Media Sosial & Copyright) -->
+            <div class="pt-6 border-t border-gray-100">
+                <div class="flex justify-center gap-4 mb-4">
+                    <a href="#"
+                        class="w-9 h-9 rounded-full bg-gray-50 hover:bg-pink-50 hover:text-pink-600 flex items-center justify-center text-gray-400 transition-all shadow-sm">
+                        <i class="fab fa-instagram text-base"></i>
+                    </a>
+                    <a href="#"
+                        class="w-9 h-9 rounded-full bg-gray-50 hover:bg-blue-50 hover:text-blue-600 flex items-center justify-center text-gray-400 transition-all shadow-sm">
+                        <i class="fab fa-facebook-f text-sm"></i>
+                    </a>
+                    <a href="#"
+                        class="w-9 h-9 rounded-full bg-gray-50 hover:bg-blue-50 hover:text-blue-600 flex items-center justify-center text-gray-400 transition-all shadow-sm">
+                        <i class="fab fa-twitter text-base"></i>
+                    </a>
+                    <a href="#"
+                        class="w-9 h-9 rounded-full bg-gray-50 hover:bg-red-50 hover:text-red-600 flex items-center justify-center text-gray-400 transition-all shadow-sm">
+                        <i class="fab fa-youtube text-base"></i>
+                    </a>
+                    <a href="#"
+                        class="w-9 h-9 rounded-full bg-gray-50 hover:bg-black hover:text-white flex items-center justify-center text-gray-400 transition-all shadow-sm">
+                        <i class="fab fa-tiktok text-sm"></i>
+                    </a>
+                </div>
+                <p class="text-[11px] text-center text-gray-400 font-medium">© 2026 HIMAPIPA UTM</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button id="backToTop"
+        class="fixed bottom-8 right-8 w-12 h-12 bg-primary text-white rounded-full shadow-xl flex items-center justify-center opacity-0 transition-all duration-300 translate-y-10 z-[60]">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- JS -->
     <script src="script.js"></script>
 
-    <!-- Prestasi Page Script -->
+    <!-- Proker Page Script -->
     <script>
         const prokerData = [
             {
                 id: 1,
-                divisi: 'akademik',
-                judul: 'Juara 1 LKTIN Universitas Negeri Malang',
-                deskripsi: 'Kompetisi Lomba Karya Tulis Ilmiah Nasional tingkat universitas',
+                divisi: 'pmb',
+                judul: 'Roadshow PMB ke Sekolah',
+                deskripsi: 'Sosialisasi program penerimaan mahasiswa baru kepada pelajar SMA/SMK di Madura.',
                 foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg',
                 tanggal: '15 Mei 2024',
-                tim: 'Tim IPA UTM'
+                tim: 'Divisi PMB'
             },
             {
                 id: 2,
-                divisi: 'kompetisi',
-                judul: 'Juara 2 Olimpiade Nasional Sains',
-                deskripsi: 'Ajang kompetisi sains tingkat nasional untuk mahasiswa',
+                divisi: 'kewirausahaan',
+                judul: 'Workshop Kewirausahaan Sains',
+                deskripsi: 'Pelatihan ide bisnis berbasis sains bagi anggota HIMAPIPA.',
                 foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg',
                 tanggal: '22 April 2024',
-                tim: 'Mahasiswa Angkatan 2022'
+                tim: 'Divisi Kewirausahaan'
             },
             {
                 id: 3,
-                divisi: 'akademik',
-                judul: 'Hibah PKM-K Kemdikbudristek',
-                deskripsi: 'Program Kreativitas Mahasiswa Kewirausahaan dengan pendanaan penuh',
+                divisi: 'kewirausahaan',
+                judul: 'Inkubator Startup Pendidikan',
+                deskripsi: 'Pendampingan ide usaha kreatif dalam bidang pendidikan dan sains.',
                 foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=PKM+Kewirausahaan',
                 tanggal: '10 Maret 2024',
-                tim: 'Tim Kewirausahaan'
+                tim: 'Divisi Kewirausahaan'
             },
             {
                 id: 4,
-                divisi: 'akademik',
-                judul: 'Top 10 Duta Mahasiswa UTM',
-                deskripsi: 'Program pengembangan kepemimpinan mahasiswa berprestasi',
+                divisi: 'ppa',
+                judul: 'Bimbingan Belajar Intensif',
+                deskripsi: 'Pendampingan akademik dan persiapan ujian bagi mahasiswa IPA.',
                 foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Duta+Mahasiswa',
                 tanggal: '5 Juni 2024',
-                tim: 'Mahasiswa Angkatan 2021'
+                tim: 'Divisi PPA'
             },
             {
                 id: 5,
-                divisi: 'kompetisi',
-                judul: 'Juara Kompetisi Inovasi Pendidikan',
-                deskripsi: 'Kompetisi inovasi dalam bidang pendidikan sains dan teknologi',
+                divisi: 'kewirausahaan',
+                judul: 'Lomba Inovasi Pendidikan',
+                deskripsi: 'Kompetisi ide kreatif untuk solusi pendidikan sains.',
                 foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Inovasi+Pendidikan',
                 tanggal: '28 Februari 2024',
-                tim: 'Kelompok Mahasiswa'
+                tim: 'Divisi Kewirausahaan'
             },
             {
                 id: 6,
-                divisi: 'publikasi',
-                judul: 'Publikasi Jurnal Nasional',
-                deskripsi: 'Penelitian dipublikasikan di Jurnal Ilmiah Nasional terakreditasi',
+                divisi: 'ppa',
+                judul: 'Publikasi Jurnal Mahasiswa1111111111',
+                deskripsi: 'Penerbitan artikel ilmiah oleh tim PPA dan anggota HIMAPIPA.',
                 foto: 'https://via.placeholder.com/400x280/FACC15/333333?text=Publikasi+Jurnal',
                 tanggal: '14 Januari 2024',
-                tim: 'Tim Peneliti IPA'
+                tim: 'Divisi PPA'
             },
             {
                 id: 7,
-                divisi: 'akademik',
-                judul: 'Pemakalah Terbaik Seminar Nasional',
-                deskripsi: 'Presentasi paper terbaik di Seminar Nasional Pendidikan Sains',
-                foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Seminar+Nasional',
+                divisi: 'infokom',
+                judul: 'Kampanye Media Sosial',
+                deskripsi: 'Pengelolaan konten dan publikasi kegiatan HIMAPIPA di media sosial.',
+                foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Video+Edukasi',
                 tanggal: '8 Desember 2023',
-                tim: 'Mahasiswa Angkatan 2023'
+                tim: 'Divisi Infokom'
             },
             {
                 id: 8,
                 divisi: 'kaderisasi',
-                judul: 'Program Kaderisasi Terbaik',
-                deskripsi: 'Program pengembangan kader organisasi dengan hasil terbaik',
+                judul: 'Pelatihan Kepemimpinan',
+                deskripsi: 'Program kaderisasi untuk membentuk pemimpin organisasi masa depan.',
                 foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=Kaderisasi+Terbaik',
                 tanggal: '30 November 2023',
                 tim: 'Divisi Kaderisasi'
             },
             {
                 id: 9,
-                divisi: 'publikasi',
-                judul: 'Buku Ajar Pendidikan IPA',
-                deskripsi: 'Buku ajar inovatif pendidikan sains telah terbit dan tersebar',
+                divisi: 'ppa',
+                judul: 'Pelatihan Penulisan Akademik',
+                deskripsi: 'Workshop keterampilan penulisan karya ilmiah dan laporan penelitian.',
                 foto: 'https://via.placeholder.com/400x280/FACC15/333333?text=Buku+Ajar',
                 tanggal: '15 Oktober 2023',
-                tim: 'Tim Dosen & Mahasiswa'
+                tim: 'Divisi PPA'
             },
             {
                 id: 10,
-                divisi: 'kompetisi',
-                judul: 'Juara Lomba Video Edukasi',
-                deskripsi: 'Kompetisi pembuatan video edukasi sains berkualitas tinggi',
+                divisi: 'infokom',
+                judul: 'Produksi Video Edukasi',
+                deskripsi: 'Pembuatan konten video untuk kampanye sains dan organisasi.',
                 foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Video+Edukasi',
                 tanggal: '20 September 2023',
-                tim: 'Mahasiswa Media'
+                tim: 'Divisi Infokom'
             },
             {
                 id: 11,
-                divisi: 'akademik',
-                judul: 'Penghargaan Dedikasi Akademik',
-                deskripsi: 'Penghargaan untuk kontribusi luar biasa dalam akademik',
+                divisi: 'pmb',
+                judul: 'Pendataan Calon Anggota Baru',
+                deskripsi: 'Pembaruan database dan proses seleksi anggota baru HIMAPIPA.',
                 foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=Dedikasi+Akademik',
                 tanggal: '12 Agustus 2023',
-                tim: 'Mahasiswa Berprestasi'
+                tim: 'Divisi PMB'
             },
             {
                 id: 12,
-                divisi: 'kaderisasi',
-                judul: 'Mentoring Program Terbaik',
-                deskripsi: 'Program mentoring junior mahasiswa dengan hasil pembelajaran optimal',
+                divisi: 'keagamaan',
+                judul: 'Bakti Sosial Keagamaan',
+                deskripsi: 'Kegiatan sosial dan penguatan nilai keagamaan bersama komunitas lokal.',
                 foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Mentoring',
                 tanggal: '5 Juli 2023',
-                tim: 'Mentor Senior'
+                tim: 'Divisi Keagamaan'
             }
         ];
 
         // Filter Buttons
         const filterButtons = document.querySelectorAll('.filter-btn');
-        const prestasiContainer = document.getElementById('proker-container');
+        const prokerContainer = document.getElementById('proker-container');
         let activeFilter = 'semua';
 
         filterButtons.forEach(btn => {
@@ -278,16 +380,16 @@
         });
 
         function renderProker() {
-            prestasiContainer.innerHTML = '';
+            prokerContainer.innerHTML = '';
             let filtered = prokerData;
 
             if (activeFilter !== 'semua') {
                 filtered = prokerData.filter(p => p.divisi === activeFilter);
             }
 
-            filtered.forEach((prestasi, index) => {
+            filtered.forEach((proker, index) => {
                 const colorMap = {
-                    'akademik': '#10B44A',
+                    'infokom': '#0ea5e9',
                     'kaderisasi': '#00A6E7',
                     'kewirausahaan': '#C0007A',
                     'keagamaan': '#FACC15',
@@ -296,7 +398,7 @@
                 };
 
                 const categoryLabel = {
-                    'akademik': 'Akademik',
+                    'infokom': 'Infokom',
                     'kaderisasi': 'Kaderisasi',
                     'kewirausahaan': 'Kewirausahaan',
                     'keagamaan': 'Keagamaan',
@@ -310,32 +412,32 @@
 
                 card.innerHTML = `
                     <div class="relative h-[280px] overflow-hidden group">
-                        <img src="${prestasi.foto}" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                        <img src="${proker.foto}" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
                         <div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent">
-                            <span class="text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded inline-block" style="background-color: ${colorMap[prestasi.divisi]}20; color: ${colorMap[prestasi.divisi]};">
-                                ${categoryLabel[prestasi.divisi]}
+                            <span class="text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded inline-block" style="background-color: ${colorMap[proker.divisi]}20; color: ${colorMap[proker.divisi]};">
+                                ${categoryLabel[proker.divisi]}
                             </span>
                             <h4 class="text-xl font-bold text-white mt-3 leading-tight line-clamp-2">
-                                ${prestasi.judul}
+                                ${proker.judul}
                             </h4>
                         </div>
                     </div>
                     <div class="p-6">
-                        <p class="text-sm text-gray-600 mb-4 line-clamp-2">${prestasi.deskripsi}</p>
+                        <p class="text-sm text-gray-600 mb-4 line-clamp-2">${proker.deskripsi}</p>
                         <div class="space-y-2 text-[12px] text-gray-500">
                             <div class="flex items-center gap-2">
-                                <i class="far fa-calendar-alt" style="color: ${colorMap[prestasi.divisi]}"></i>
-                                <span>${prestasi.tanggal}</span>
+                                <i class="far fa-calendar-alt" style="color: ${colorMap[proker.divisi]}"></i>
+                                <span>${proker.tanggal}</span>
                             </div>
                             <div class="flex items-center gap-2">
-                                <i class="far fa-user" style="color: ${colorMap[prestasi.divisi]}"></i>
-                                <span>${prestasi.tim}</span>
+                                <i class="far fa-user" style="color: ${colorMap[proker.divisi]}"></i>
+                                <span>${proker.tim}</span>
                             </div>
                         </div>
                     </div>
                 `;
 
-                prestasiContainer.appendChild(card);
+                prokerContainer.appendChild(card);
             });
         }
 

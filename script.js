@@ -28,26 +28,33 @@ window.onscroll = function () {
         nav.classList.add('py-2', 'shadow-sm');
         nav.classList.remove('py-4');
 
-        btt.classList.remove('opacity-0', 'translate-y-10');
-        btt.classList.add('opacity-100', 'translate-y-0');
+        if (btt) {
+            btt.classList.remove('opacity-0', 'translate-y-10');
+            btt.classList.add('opacity-100', 'translate-y-0');
+        }
 
     } else {
 
         nav.classList.remove('py-2', 'shadow-sm');
         nav.classList.add('py-4');
 
-        btt.classList.add('opacity-0', 'translate-y-10');
-        btt.classList.remove('opacity-100', 'translate-y-0');
+        if (btt) {
+            btt.classList.add('opacity-0', 'translate-y-10');
+            btt.classList.remove('opacity-100', 'translate-y-0');
+        }
     }
 };
 
 // Back To Top
-document.getElementById('backToTop').onclick = function () {
+const backToTopButton = document.getElementById('backToTop');
+if (backToTopButton) {
+    backToTopButton.onclick = function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
 
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
 };
 
 // Premium Mobile Menu Logic (Smooth Slide & Fade Animation)
