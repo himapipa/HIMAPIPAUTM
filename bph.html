@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HIMAPIPA UTM | Inovatif & Kolaboratif</title>
+    <title>HIMAPIPA UTM | BPH</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://via.placeholder.com/32/10B44A/FFFFFF?text=H">
@@ -59,7 +59,7 @@
     <!-- Navbar -->
     <nav class="fixed w-full z-50 transition-all duration-300 py-4 glass-nav" id="navbar">
         <div class="container mx-auto px-6 flex justify-between items-center">
-            <a href="#" class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-3">
                 <img src="https://i.postimg.cc/HnjvgF62/HIMAPIPA.png" alt="Logo HIMAPIPA" class="w-10 h-10">
                 <div class="flex flex-col">
                     <span class="font-montserrat font-bold text-lg tracking-tight leading-none">HIMAPIPA <span
@@ -72,8 +72,16 @@
             <!-- Desktop Menu -->
             <div
                 class="hidden lg:flex items-center space-x-7 font-poppins text-[13px] font-semibold uppercase tracking-wider">
-                <a href="index.html" class="hover:text-primary transition-colors">Beranda</a>
+                <a href="index.html#beranda" class="hover:text-primary transition-colors">Beranda</a>
+                <a href="index.html#tentang" class="hover:text-primary transition-colors">Tentang</a>
+                <a href="index.html#bph" class="hover:text-primary transition-colors">BPH</a>
+                <a href="index.html#divisi" class="hover:text-primary transition-colors">Divisi</a>
+                <a href="index.html#proker" class="hover:text-primary transition-colors">Proker</a>
+                <a href="index.html#prestasi" class="hover:text-primary transition-colors">Prestasi</a>
+                <a href="index.html#kontak"
+                    class="px-5 py-2 bg-primary text-white rounded-full hover:bg-opacity-90 transition-all shadow-md">Kontak</a>
             </div>
+
             <!-- Mobile Toggle -->
             <button class="lg:hidden text-2xl text-darkSoft" id="menuBtn">
                 <i class="fas fa-bars"></i>
@@ -81,56 +89,134 @@
         </div>
     </nav>
 
-    <!-- Program Kerja Section -->
-    <section id="proker" class="py-24">
+    <section class="relative pt-32 pb-24">
         <div class="container mx-auto px-6">
-            <div class="mb-16">
-                <h2 class="text-4xl font-montserrat font-extrabold mb-3">Daftar Program Kerja</h2>
-                <p class="text-gray-600 text-lg">Kegiatan dan program kerja dari setiap divisi HIMAPIPA UTM</p>
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-montserrat font-extrabold mb-4">
+                    Badan Pengurus Harian
+                </h2>
+
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
 
-            <!-- Filter divisi -->
-            <div class="flex flex-wrap gap-3 mb-12">
-                <button
-                    class="filter-btn active px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 bg-primary text-white"
-                    data-filter="semua">Semua</button>
-
-                <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-secondary text-secondary hover:bg-secondary hover:text-white"
-                    data-filter="kaderisasi">Kaderisasi</button>
-
-                <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-purple-500 text-purple-600 hover:bg-purple-500 hover:text-white"
-                    data-filter="ppa">PPA</button>
-
-                <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-cyan-500 text-cyan-600 hover:bg-cyan-500 hover:text-white"
-                    data-filter="infokom">Infokom</button>
-
-                <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white"
-                    data-filter="pmb">PMB</button>
-
-                <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white"
-                    data-filter="keagamaan">Keagamaan</button>
-
-                <button
-                    class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-accent text-accent hover:bg-accent hover:text-white"
-                    data-filter="kewirausahaan">Kewirausahaan</button>
+            <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <!-- Ketua -->
+                <div class="text-center group" data-aos="fade-up">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/gcN2DBQN/Whats-App-Image-2026-05-25-at-16-08-03.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="https://www.instagram.com/_lkhan71?igsh=MWZoc3ZiNDJkamY5bw=="><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Lukma Arohman</h4>
+                    <span class="text-primary text-sm font-medium">Ketua Umum</span>
+                </div>
+                <!-- Wakil -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/bY3wTFW1/Whats-App-Image-2026-05-25-at-16-08-02-(1).jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Amirullah Eka Saputra</h4>
+                    <span class="text-primary text-sm font-medium">Wakil Ketua</span>
+                </div>
+                <!-- Sekre -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/c1XLm52T/Whats-App-Image-2026-05-25-at-16-08-02.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Nur Fajirotun Diniaty</h4>
+                    <span class="text-primary text-sm font-medium">Sekretaris</span>
+                </div>
+                <!-- Sekre 2 -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/zD0GjP6g/Whats-App-Image-2026-05-25-at-16-08-01-(1).jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Sofiyah</h4>
+                    <span class="text-primary text-sm font-medium">Sekretaris 2</span>
+                </div>
+                <!-- Bendahara -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/FFDHZn8c/Whats-App-Image-2026-05-25-at-16-08-01.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Rosyidah Putri Desandra</h4>
+                    <span class="text-primary text-sm font-medium">Bendahara</span>
+                </div>
+                <!-- Bendahara 2-->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="relative mb-4 overflow-hidden rounded-2xl aspect-square bg-gray-100">
+                        <img src="https://i.postimg.cc/05cyfHFS/Whats-App-Image-2026-05-25-at-16-08-00.jpg"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-6">
+                            <div class="flex gap-4 text-white">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-lg">Andrea Putri Azahra</h4>
+                    <span class="text-primary text-sm font-medium">Bendahara 2</span>
+                </div>
             </div>
 
-            <!-- Proker Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="proker-container">
-                <!-- Card akan di-generate oleh JavaScript -->
+            <div class="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-white rounded-[30px] border border-gray-100 shadow-sm p-8" data-aos="fade-up">
+                    <h4 class="text-xl font-bold mb-3">Visi BPH</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Mewujudkan HIMAPIPA sebagai kepengurusan yang
+                        profesional, adaptif, dan berdaya saing tinggi dalam setiap kegiatan.</p>
+                </div>
+                <div class="bg-white rounded-[30px] border border-gray-100 shadow-sm p-8" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <h4 class="text-xl font-bold mb-3">Misi BPH</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Mendukung pelaksanaan program kerja, memperkuat
+                        kolaborasi divisi, dan menjaga keberlanjutan organisasi dengan tata kelola yang baik.</p>
+                </div>
+                <div class="bg-white rounded-[30px] border border-gray-100 shadow-sm p-8" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <h4 class="text-xl font-bold mb-3">Struktur Inti</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Ketua, wakil ketua, sekretaris, bendahara, dan
+                        anggota inti bekerja bersama untuk memastikan setiap program berjalan lancar.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-gray-50 border-t border-gray-100 pt-20 pb-10 relative overflow-hidden">
         <div class="container mx-auto px-6">
-            <!-- Neon Line -->
             <div class="absolute top-0 left-0 w-full rainbow-accent opacity-50"></div>
             <div
                 class="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-[12px] text-gray-400">
@@ -213,7 +299,6 @@
                 </nav>
             </div>
 
-            <!-- Footer Sidebar (Media Sosial & Copyright) -->
             <div class="pt-6 border-t border-gray-100">
                 <div class="flex justify-center gap-4 mb-4">
                     <a href="#"
@@ -243,56 +328,13 @@
         </div>
     </div>
 
-    <!-- Back to Top -->
     <button id="backToTop"
         class="fixed bottom-8 right-8 w-12 h-12 bg-primary text-white rounded-full shadow-xl flex items-center justify-center opacity-0 transition-all duration-300 translate-y-10 z-[60]">
         <i class="fas fa-arrow-up"></i>
     </button>
 
-    <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- JS -->
     <script src="script.js"></script>
-
-    <!-- Proker Page Script -->
-    <script>
-        // Filter Buttons
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const prokerContainer = document.getElementById('proker-container');
-        let activeFilter = 'semua';
-
-        filterButtons.forEach(btn => {
-            btn.addEventListener('click', function () {
-                activeFilter = this.dataset.filter;
-                filterButtons.forEach(b => b.classList.remove('active', 'bg-primary', 'text-white'));
-                this.classList.add('active', 'bg-primary', 'text-white');
-                renderProker();
-                if (typeof AOS !== 'undefined') AOS.refresh();
-            });
-        });
-
-        function renderProker() {
-            if (!prokerContainer) return; // Proteksi aman
-            prokerContainer.innerHTML = '';
-            let filtered = prokerData; // Mengambil langsung dari array pusat di script.js
-
-            if (activeFilter !== 'semua') {
-                filtered = prokerData.filter(p => p.divisi === activeFilter);
-            }
-
-            filtered.forEach((proker, index) => {
-                // Memanggil fungsi render kartu yang ada di script.js
-                const card = createProkerCardElement(proker, index);
-                prokerContainer.appendChild(card);
-            });
-        }
-
-        // Initialize
-        document.addEventListener('DOMContentLoaded', function () {
-            renderProker();
-        });
-    </script>
 </body>
 
 </html>

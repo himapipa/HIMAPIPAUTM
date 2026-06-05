@@ -82,29 +82,31 @@
     </nav>
 
     <!-- Prestasi Section -->
-    <section id="prestasi" class="py-24">
+    <section class="pt-32 pb-24 min-h-screen">
         <div class="container mx-auto px-6">
-            <div class="mb-16">
-                <h2 class="text-4xl font-montserrat font-extrabold mb-3">Daftar Prestasi</h2>
-                <p class="text-gray-600 text-lg">Capaian dan penghargaan yang telah diraih HIMAPIPA UTM</p>
+            <div class="mb-12">
+                <h3 class="text-primary font-bold text-sm uppercase mb-2">Prestasi & Karya</h3>
+                <h2 class="text-4xl font-montserrat font-extrabold mb-3">Daftar Prestasi Mahasiswa</h2>
+                <p class="text-gray-600">Rangkuman jejak prestasi mahasiswa Pendidikan IPA dalam bidang akademik maupun
+                    non-akademik.</p>
             </div>
 
-            <!-- Filter Kategori -->
-            <div class="flex flex-wrap gap-3 mb-12">
-                <button class="filter-btn active px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 bg-primary text-white" data-filter="semua">Semua</button>
-                <button class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-primary text-primary hover:bg-primary hover:text-white" data-filter="akademik">Akademik</button>
-                <button class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-secondary text-secondary hover:bg-secondary hover:text-white" data-filter="kompetisi">Kompetisi</button>
-                <button class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-accent text-accent hover:bg-accent hover:text-white" data-filter="publikasi">Publikasi</button>
-                <button class="filter-btn px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 border-2 border-yellow-500 text-yellow-600 hover:bg-yellow-500 hover:text-white" data-filter="kaderisasi">Kaderisasi</button>
+            <div class="flex flex-wrap gap-3 mb-10 border-b border-gray-200 pb-6">
+                <button
+                    class="filter-prestasi-btn px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 border-2"
+                    data-filter="semua">Semua Kategori</button>
+                <button
+                    class="filter-prestasi-btn px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 border-2"
+                    data-filter="akademik">Prestasi Akademik</button>
+                <button
+                    class="filter-prestasi-btn px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 border-2"
+                    data-filter="nonakademik">Prestasi Non-Akademik</button>
             </div>
 
-            <!-- Prestasi Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="prestasi-container">
-                <!-- Card akan di-generate oleh JavaScript -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="prestasi-container">
             </div>
         </div>
     </section>
-
     <!-- Footer -->
     <footer class="bg-gray-50 border-t border-gray-100 pt-20 pb-10 relative overflow-hidden">
         <div class="container mx-auto px-6">
@@ -112,7 +114,7 @@
             <div class="absolute top-0 left-0 w-full rainbow-accent opacity-50"></div>
             <div
                 class="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-[12px] text-gray-400">
-                <p>&copy; 2024 HIMAPIPA UTM. All Rights Reserved.</p>
+                <p>&copy; 2026 HIMAPIPA UTM. All Rights Reserved.</p>
                 <div class="flex gap-6">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Use</a>
@@ -163,7 +165,11 @@
                         <i class="fas fa-tasks text-lg text-gray-400 group-hover:text-[#10B44A] transition-colors"></i>
                         <span>Program Kerja</span>
                     </a>
-
+                    <a href="index.html#prestasi"
+                        class="mobile-nav-link flex items-center gap-4 px-4 py-3 rounded-xl text-gray-600 hover:text-[#10B44A] hover:bg-green-50/50 font-medium transition-all group">
+                        <i class="fas fa-trophy text-lg text-gray-400 group-hover:text-[#10B44A] transition-colors"></i>
+                        <span>Prestasi</span>
+                    </a>
 
                     <div class="border-t border-gray-100 my-4 pt-4">
                         <span
@@ -228,199 +234,6 @@
 
     <!-- JS -->
     <script src="script.js"></script>
-
-    <!-- Prestasi Page Script -->
-    <script>
-        const prestasiData = [
-            {
-                id: 1,
-                kategori: 'akademik',
-                judul: 'Juara 1 LKTIN Universitas Negeri Malang',
-                deskripsi: 'Kompetisi Lomba Karya Tulis Ilmiah Nasional tingkat universitas',
-                foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg',
-                tanggal: '15 Mei 2024',
-                tim: 'Tim IPA UTM'
-            },
-            {
-                id: 2,
-                kategori: 'kompetisi',
-                judul: 'Juara 2 Olimpiade Nasional Sains',
-                deskripsi: 'Ajang kompetisi sains tingkat nasional untuk mahasiswa',
-                foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg',
-                tanggal: '22 April 2024',
-                tim: 'Mahasiswa Angkatan 2022'
-            },
-            {
-                id: 3,
-                kategori: 'akademik',
-                judul: 'Hibah PKM-K Kemdikbudristek',
-                deskripsi: 'Program Kreativitas Mahasiswa Kewirausahaan dengan pendanaan penuh',
-                foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=PKM+Kewirausahaan',
-                tanggal: '10 Maret 2024',
-                tim: 'Tim Kewirausahaan'
-            },
-            {
-                id: 4,
-                kategori: 'akademik',
-                judul: 'Top 10 Duta Mahasiswa UTM',
-                deskripsi: 'Program pengembangan kepemimpinan mahasiswa berprestasi',
-                foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Duta+Mahasiswa',
-                tanggal: '5 Juni 2024',
-                tim: 'Mahasiswa Angkatan 2021'
-            },
-            {
-                id: 5,
-                kategori: 'kompetisi',
-                judul: 'Juara Kompetisi Inovasi Pendidikan',
-                deskripsi: 'Kompetisi inovasi dalam bidang pendidikan sains dan teknologi',
-                foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Inovasi+Pendidikan',
-                tanggal: '28 Februari 2024',
-                tim: 'Kelompok Mahasiswa'
-            },
-            {
-                id: 6,
-                kategori: 'publikasi',
-                judul: 'Publikasi Jurnal Nasional',
-                deskripsi: 'Penelitian dipublikasikan di Jurnal Ilmiah Nasional terakreditasi',
-                foto: 'https://via.placeholder.com/400x280/FACC15/333333?text=Publikasi+Jurnal',
-                tanggal: '14 Januari 2024',
-                tim: 'Tim Peneliti IPA'
-            },
-            {
-                id: 7,
-                kategori: 'akademik',
-                judul: 'Pemakalah Terbaik Seminar Nasional',
-                deskripsi: 'Presentasi paper terbaik di Seminar Nasional Pendidikan Sains',
-                foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Seminar+Nasional',
-                tanggal: '8 Desember 2023',
-                tim: 'Mahasiswa Angkatan 2023'
-            },
-            {
-                id: 8,
-                kategori: 'kaderisasi',
-                judul: 'Program Kaderisasi Terbaik',
-                deskripsi: 'Program pengembangan kader organisasi dengan hasil terbaik',
-                foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=Kaderisasi+Terbaik',
-                tanggal: '30 November 2023',
-                tim: 'Divisi Kaderisasi'
-            },
-            {
-                id: 9,
-                kategori: 'publikasi',
-                judul: 'Buku Ajar Pendidikan IPA',
-                deskripsi: 'Buku ajar inovatif pendidikan sains telah terbit dan tersebar',
-                foto: 'https://via.placeholder.com/400x280/FACC15/333333?text=Buku+Ajar',
-                tanggal: '15 Oktober 2023',
-                tim: 'Tim Dosen & Mahasiswa'
-            },
-            {
-                id: 10,
-                kategori: 'kompetisi',
-                judul: 'Juara Lomba Video Edukasi',
-                deskripsi: 'Kompetisi pembuatan video edukasi sains berkualitas tinggi',
-                foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Video+Edukasi',
-                tanggal: '20 September 2023',
-                tim: 'Mahasiswa Media'
-            },
-            {
-                id: 11,
-                kategori: 'akademik',
-                judul: 'Penghargaan Dedikasi Akademik',
-                deskripsi: 'Penghargaan untuk kontribusi luar biasa dalam akademik',
-                foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=Dedikasi+Akademik',
-                tanggal: '12 Agustus 2023',
-                tim: 'Mahasiswa Berprestasi'
-            },
-            {
-                id: 12,
-                kategori: 'kaderisasi',
-                judul: 'Mentoring Program Terbaik',
-                deskripsi: 'Program mentoring junior mahasiswa dengan hasil pembelajaran optimal',
-                foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Mentoring',
-                tanggal: '5 Juli 2023',
-                tim: 'Mentor Senior'
-            }
-        ];
-
-        // Filter Buttons
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const prestasiContainer = document.getElementById('prestasi-container');
-        let activeFilter = 'semua';
-
-        filterButtons.forEach(btn => {
-            btn.addEventListener('click', function() {
-                activeFilter = this.dataset.filter;
-                filterButtons.forEach(b => b.classList.remove('active', 'bg-primary', 'text-white'));
-                this.classList.add('active', 'bg-primary', 'text-white');
-                renderPrestasi();
-                AOS.refresh();
-            });
-        });
-
-        function renderPrestasi() {
-            prestasiContainer.innerHTML = '';
-            let filtered = prestasiData;
-            
-            if (activeFilter !== 'semua') {
-                filtered = prestasiData.filter(p => p.kategori === activeFilter);
-            }
-
-            filtered.forEach((prestasi, index) => {
-                const colorMap = {
-                    'akademik': '#10B44A',
-                    'kompetisi': '#00A6E7',
-                    'publikasi': '#FACC15',
-                    'kaderisasi': '#C0007A'
-                };
-
-                const categoryLabel = {
-                    'akademik': 'Akademik',
-                    'kompetisi': 'Kompetisi',
-                    'publikasi': 'Publikasi',
-                    'kaderisasi': 'Kaderisasi'
-                };
-
-                const card = document.createElement('div');
-                card.className = 'card-news bg-white rounded-2xl overflow-hidden border border-gray-100 transition-all duration-300 hover:shadow-lg hover:border-gray-200 cursor-pointer';
-                card.setAttribute('data-aos', 'fade-up');
-                card.setAttribute('data-aos-delay', (index % 3) * 100);
-
-                card.innerHTML = `
-                    <div class="relative h-[280px] overflow-hidden group">
-                        <img src="${prestasi.foto}" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
-                        <div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent">
-                            <span class="text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded inline-block" style="background-color: ${colorMap[prestasi.kategori]}20; color: ${colorMap[prestasi.kategori]};">
-                                ${categoryLabel[prestasi.kategori]}
-                            </span>
-                            <h4 class="text-xl font-bold text-white mt-3 leading-tight line-clamp-2">
-                                ${prestasi.judul}
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-sm text-gray-600 mb-4 line-clamp-2">${prestasi.deskripsi}</p>
-                        <div class="space-y-2 text-[12px] text-gray-500">
-                            <div class="flex items-center gap-2">
-                                <i class="far fa-calendar-alt" style="color: ${colorMap[prestasi.kategori]}"></i>
-                                <span>${prestasi.tanggal}</span>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <i class="far fa-user" style="color: ${colorMap[prestasi.kategori]}"></i>
-                                <span>${prestasi.tim}</span>
-                            </div>
-                        </div>
-                    </div>
-                `;
-
-                prestasiContainer.appendChild(card);
-            });
-        }
-
-        // Initialize
-        document.addEventListener('DOMContentLoaded', function() {
-            renderPrestasi();
-        });
-    </script>
 </body>
 
 </html>
