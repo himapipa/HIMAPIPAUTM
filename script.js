@@ -143,124 +143,53 @@ function toggleOverlay(id) {
     }
 }
 
-// Prestasi interactions disabled: statistics panel stays static.
-// Clicks on prestasi cards intentionally have no effect.
-// If you want to re-enable behavior later, re-implement handlers here.
-
-// ================================================================
-// KODE AMAN: OTOMATISASI PROGRAM KERJA (SINKRON INDEX & SEE-ALL)
-// ================================================================
-
 // Data pusat program kerja agar bisa diakses index.html dan see all proker.html
 const prokerData = [
     {
         id: 1,
-        divisi: 'pmb',
-        judul: 'Roadshow PMB ke Sekolah',
-        deskripsi: 'Sosialisasi program penerimaan mahasiswa baru kepada pelajar SMA/SMK di Madura.',
+        divisi: 'keagamaan',
+        judul: 'Buka Puasa Bersama & sharing hearing',
+        deskripsi: 'Mellakukan kegiatan buka puasa bersama dan sharing hearing untuk mempererat tali silaturahmi.',
         foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg',
-        tanggal: '15 Maret 2024',
-        tim: 'Divisi PMB'
+        tanggal: '15 Maret 2025',
+        tim: 'Pengurus HIMAPIPA 2026'
     },
     {
         id: 2,
-        divisi: 'kewirausahaan',
-        judul: 'Workshop Kewirausahaan Sains',
-        deskripsi: 'Pelatihan ide bisnis berbasis sains bagi anggota HIMAPIPA.',
+        divisi: 'kaderisasi',
+        judul: 'pelantikan pengurus HIMAPIPA 2026',
+        deskripsi: 'Pelantikan pengurus HIMAPIPA 2026 untuk periode 2026-2027 dengan penuh semangat dan harapan baru.',
         foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg',
-        tanggal: '22 April 2024',
-        tim: 'Divisi Kewirausahaan'
+        tanggal: '22 April 2026',
+        tim: 'Pengurus HIMAPIPA 2026'
     },
     {
         id: 3,
-        divisi: 'kewirausahaan',
-        judul: 'Inkubator Startup Pendidikan',
-        deskripsi: 'Pendampingan ide usaha kreatif dalam bidang pendidikan dan sains.',
+        divisi: 'kaderisasi',
+        judul: 'LKMM',
+        deskripsi: 'Latihan Keterampilan Manajemen Mahasiswa untuk membekali anggota dengan kemampuan organisasi dan kepemimpinan.',
         foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=PKM+Kewirausahaan',
         tanggal: '10 Maret 2024',
-        tim: 'Divisi Kewirausahaan'
+        tim: 'Pengurus HIMAPIPA 2026'
     },
     {
         id: 4,
         divisi: 'ppa',
-        judul: 'Bimbingan Belajar Intensif',
-        deskripsi: 'Pendampingan akademik dan persiapan ujian bagi mahasiswa IPA.',
+        judul: 'Cromoshom',
+        deskripsi: 'Lomba karya ilmiah tingkat nasional dengan tema inovasi media pembelajaran sains berbasis kearifan lokal Madura.',
         foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Duta+Mahasiswa',
         tanggal: '5 Juni 2024',
-        tim: 'Divisi PPA'
+        tim: 'Pengurus HIMAPIPA 2026'
     },
     {
         id: 5,
-        divisi: 'kewirausahaan',
+        divisi: 'kaderisasi',
         judul: 'Lomba Inovasi Pendidikan',
         deskripsi: 'Kompetisi ide kreatif untuk solusi pendidikan sains.',
         foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Inovasi+Pendidikan',
         tanggal: '28 Februari 2024',
-        tim: 'Divisi Kewirausahaan'
+        tim: 'Pengurus HIMAPIPA 2026'
     },
-    {
-        id: 6,
-        divisi: 'ppa',
-        judul: 'Publikasi Jurnal Mahasiswa1111111111',
-        deskripsi: 'Penerbitan artikel ilmiah oleh tim PPA dan anggota HIMAPIPA.',
-        foto: 'https://via.placeholder.com/400x280/FACC15/333333?text=Publikasi+Jurnal',
-        tanggal: '14 Januari 2024',
-        tim: 'Divisi PPA'
-    },
-    {
-        id: 7,
-        divisi: 'infokom',
-        judul: 'Kampanye Media Sosial',
-        deskripsi: 'Pengelolaan konten dan publikasi kegiatan HIMAPIPA di media sosial.',
-        foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Video+Edukasi',
-        tanggal: '8 Desember 2023',
-        tim: 'Divisi Infokom'
-    },
-    {
-        id: 8,
-        divisi: 'kaderisasi',
-        judul: 'Pelatihan Kepemimpinan',
-        deskripsi: 'Program kaderisasi untuk membentuk pemimpin organisasi masa depan.',
-        foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=Kaderisasi+Terbaik',
-        tanggal: '30 November 2023',
-        tim: 'Divisi Kaderisasi'
-    },
-    {
-        id: 9,
-        divisi: 'ppa',
-        judul: 'Pelatihan Penulisan Akademik',
-        deskripsi: 'Workshop keterampilan penulisan karya ilmiah dan laporan penelitian.',
-        foto: 'https://via.placeholder.com/400x280/FACC15/333333?text=Buku+Ajar',
-        tanggal: '15 Oktober 2023',
-        tim: 'Divisi PPA'
-    },
-    {
-        id: 10,
-        divisi: 'infokom',
-        judul: 'Produksi Video Edukasi',
-        deskripsi: 'Pembuatan konten video untuk kampanye sains dan organisasi.',
-        foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Video+Edukasi',
-        tanggal: '20 September 2023',
-        tim: 'Divisi Infokom'
-    },
-    {
-        id: 11,
-        divisi: 'pmb',
-        judul: 'Pendataan Calon Anggota Baru',
-        deskripsi: 'Pembaruan database dan proses seleksi anggota baru HIMAPIPA.',
-        foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=Dedikasi+Akademik',
-        tanggal: '12 Agustus 2023',
-        tim: 'Divisi PMB'
-    },
-    {
-        id: 12,
-        divisi: 'pmb',
-        judul: 'Bakti Sosial Keagamaan',
-        deskripsi: 'Kegiatan sosial dan penguatan nilai keagamaan bersama komunitas lokal.',
-        foto: 'https://i.postimg.cc/3rp8H0K1/PENGURUS-HIMAPIPA-2026-Halo-teman-teman-semuanya-Lebih-dekat-dengan-kita-melalui-Profil-d.webp',
-        tanggal: '5 Juli 2023',
-        tim: 'Divisi PMB'
-    }
 ];
 
 const prokerColorMap = {
@@ -482,3 +411,38 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+// ================================================================
+// KODE AMAN: OTOMATISASI STATISTIK PRESTASI DI BERANDA
+// ================================================================
+document.addEventListener('DOMContentLoaded', function () {
+    // Tangkap elemen HTML berdasarkan ID
+    const statAkademikEl = document.getElementById('stat-akademik');
+    const statNonAkademikEl = document.getElementById('stat-nonakademik');
+
+    // Pastikan script hanya berjalan jika elemen tersebut ada (di index.html)
+    if (statAkademikEl && statNonAkademikEl) {
+        // Hitung total masing-masing kategori dari prestasiData
+        const totalAkademik = prestasiData.filter(p => p.kategori === 'akademik').length;
+        const totalNonAkademik = prestasiData.filter(p => p.kategori === 'nonakademik').length;
+
+        // Animasi angka berjalan (Counter Animation) opsional tapi bikin web makin keren
+        animateValue(statAkademikEl, 0, totalAkademik, 1500);
+        animateValue(statNonAkademikEl, 0, totalNonAkademik, 1500);
+    }
+});
+
+// Fungsi untuk membuat animasi angka berjalan dari 0 ke target
+function animateValue(obj, start, end, duration) {
+    let startTimestamp = null;
+    const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        // Menghitung angka saat ini
+        obj.innerHTML = Math.floor(progress * (end - start) + start);
+        if (progress < 1) {
+            window.requestAnimationFrame(step);
+        }
+    };
+    window.requestAnimationFrame(step);
+}
