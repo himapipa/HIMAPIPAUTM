@@ -150,7 +150,7 @@ const prokerData = [
         divisi: 'keagamaan',
         judul: 'Buka Puasa Bersama & sharing hearing',
         deskripsi: 'Mellakukan kegiatan buka puasa bersama dan sharing hearing untuk mempererat tali silaturahmi.',
-        foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg',
+        foto: 'https://i.postimg.cc/JznD8bPw/3.jpg',
         tanggal: '15 Maret 2025',
         tim: 'Pengurus HIMAPIPA 2026'
     },
@@ -159,7 +159,7 @@ const prokerData = [
         divisi: 'kaderisasi',
         judul: 'pelantikan pengurus HIMAPIPA 2026',
         deskripsi: 'Pelantikan pengurus HIMAPIPA 2026 untuk periode 2026-2027 dengan penuh semangat dan harapan baru.',
-        foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg',
+        foto: 'https://i.postimg.cc/MpTMwytC/2.jpg',
         tanggal: '22 April 2026',
         tim: 'Pengurus HIMAPIPA 2026'
     },
@@ -168,28 +168,28 @@ const prokerData = [
         divisi: 'kaderisasi',
         judul: 'LKMM',
         deskripsi: 'Latihan Keterampilan Manajemen Mahasiswa untuk membekali anggota dengan kemampuan organisasi dan kepemimpinan.',
-        foto: 'https://via.placeholder.com/400x280/10B44A/FFFFFF?text=PKM+Kewirausahaan',
+        foto: 'https://i.postimg.cc/W13FVMXL/1.jpg',
         tanggal: '10 Maret 2024',
         tim: 'Pengurus HIMAPIPA 2026'
     },
-    {
-        id: 4,
-        divisi: 'ppa',
-        judul: 'Cromoshom',
-        deskripsi: 'Lomba karya ilmiah tingkat nasional dengan tema inovasi media pembelajaran sains berbasis kearifan lokal Madura.',
-        foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Duta+Mahasiswa',
-        tanggal: '5 Juni 2024',
-        tim: 'Pengurus HIMAPIPA 2026'
-    },
-    {
-        id: 5,
-        divisi: 'kaderisasi',
-        judul: 'Lomba Inovasi Pendidikan',
-        deskripsi: 'Kompetisi ide kreatif untuk solusi pendidikan sains.',
-        foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Inovasi+Pendidikan',
-        tanggal: '28 Februari 2024',
-        tim: 'Pengurus HIMAPIPA 2026'
-    },
+    // {
+    //     id: 4,
+    //     divisi: 'ppa',
+    //     judul: 'Cromoshom',
+    //     deskripsi: 'Lomba karya ilmiah tingkat nasional dengan tema inovasi media pembelajaran sains berbasis kearifan lokal Madura.',
+    //     foto: 'https://via.placeholder.com/400x280/00A6E7/FFFFFF?text=Duta+Mahasiswa',
+    //     tanggal: '5 Juni 2024',
+    //     tim: 'Pengurus HIMAPIPA 2026'
+    // },
+    // {
+    //     id: 5,
+    //     divisi: 'kaderisasi',
+    //     judul: 'Kompas ',
+    //     deskripsi: 'Kompetisi ide kreatif untuk solusi pendidikan sains.',
+    //     foto: 'https://via.placeholder.com/400x280/C0007A/FFFFFF?text=Inovasi+Pendidikan',
+    //     tanggal: '28 Februari 2024',
+    //     tim: 'Pengurus HIMAPIPA 2026'
+    // },
 ];
 
 const prokerColorMap = {
@@ -276,39 +276,149 @@ const prestasiData = [
     {
         id: 1,
         kategori: 'akademik',
-        judul: 'Juara 1 LKTIN Universitas Negeri Malang',
-        deskripsi: 'Berhasil meraih juara 1 dengan karya inovasi media pembelajaran sains berbasis kearifan lokal Madura.',
-        tanggal: '12 Mei 2026',
-        tim: 'Tim IPA UTM - 2026',
-        foto: 'https://i.postimg.cc/59rmVBTS/Whats-App-Image-2026-06-02-at-18-44-20.jpg'
+        judul: 'Edutalk Fair Competition x UNDIP 2026',
+        deskripsi: 'Mendapatkan Bronze Medal Essay National Competition.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/YqDbTNkF/Whats-App-Image-2026-06-06-at-13-32-01.jpg'
     },
     {
         id: 2,
         kategori: 'akademik',
-        judul: 'Hibah PKM-K Kemdikbudristek',
-        deskripsi: 'Mendapatkan pendanaan untuk program kewirausahaan mahasiswa tingkat nasional.',
-        tanggal: '10 April 2025',
-        tim: 'Tim Kewirausahaan - 2025',
-        foto: 'https://via.placeholder.com/400x280/22c55e/ffffff?text=PKM-K'
+        judul: 'Lomba Essay Tingkat Nasional 7',
+        deskripsi: 'Mendapatkan Bronze Medal Lomba Essay Tingkat Nasional 7.',
+        tanggal: '2026',       
+        foto: 'https://i.postimg.cc/m2gmdpxj/Whats-App-Image-2026-06-06-at-13-32-04.jpg'
     },
     {
         id: 3,
-        kategori: 'nonakademik',
-        judul: 'Top 10 Duta Mahasiswa UTM',
-        deskripsi: 'Menjadi finalis 10 besar dalam ajang pencarian Duta Kampus Universitas Trunojoyo Madura.',
-        tanggal: '20 November 2024',
-        tim: 'Mahasiswa Angkatan 2024',
-        foto: 'https://via.placeholder.com/400x280/f472b6/ffffff?text=Duta+UTM'
+        kategori: 'akademik',
+        judul: 'Lomba Essay Tingkat Nasional 7',
+        deskripsi: 'Mendapatkan Bronze Medal Lomba Essay Tingkat Nasional 7.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/BQnmh7Wg/Whats-App-Image-2026-06-06-at-13-32-05.jpg'
     },
     {
         id: 4,
-        kategori: 'nonakademik',
-        judul: 'Juara 1 Futsal Antar Jurusan',
-        deskripsi: 'Memenangkan turnamen futsal tahunan tingkat fakultas dengan rekor tak terkalahkan.',
-        tanggal: '15 Agustus 2025',
-        tim: 'Tim Olahraga HIMAPIPA',
-        foto: 'https://via.placeholder.com/400x280/3b82f6/ffffff?text=Futsal+Juara'
-    }
+        kategori: 'akademik',
+        judul: 'Forum Indonesia Muda 2',
+        deskripsi: 'Mendapatkan Bronze Medal Forum Indonesia Muda 2.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/TY3tkN8c/Whats-App-Image-2026-06-06-at-13-32-06.jpg'
+    },
+    {
+        id: 5,
+        kategori: 'akademik',
+        judul: 'Forum Indonesia Muda 2',
+        deskripsi: 'Mendapatkan Bronze Medal Forum Indonesia Muda 2.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/pXLs0cNJ/Whats-App-Image-2026-06-06-at-13-32-061.jpg'
+    },
+    {
+        id: 6,
+        kategori: 'akademik',
+        judul: '2nd International Student Competition',
+        deskripsi: 'Mendapatkan Bronze Medal 2nd International Student Competition.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/GhmXMg0G/Whats-App-Image-2026-06-06-at-13-32-07.jpg'
+    },
+    {
+        id: 7,
+        kategori: 'akademik',
+        judul: '2nd International Student Summit',
+        deskripsi: 'Mendapatkan Bronze Medal 2nd International Student Summit.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/02yVtXgp/Whats-App-Image-2026-06-06-at-13-32-071.jpg'
+    },
+    {
+        id: 8,
+        kategori: 'akademik',
+        judul: '2nd International Student Competition',
+        deskripsi: 'Mendapatkan Silver Medal 2nd International Student Competition.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/Kv809pX3/Whats-App-Image-2026-06-06-at-13-32-072.jpg    '
+    },
+    {
+        id: 9,
+        kategori: 'akademik',
+        judul: 'Lomba Essay Futura Innovation Hub x UIN Sunan Gunung Djati',
+        deskripsi: 'Mendapatkan Honorobel Medal Bidang Gizi dan Kesehatan.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/Kv809pXk/Whats-App-Image-2026-06-06-at-13-32-08.jpg'
+    },
+    {
+        id: 10,
+        kategori: 'akademik',
+        judul: 'Pilmapres kategori Pratama',
+        deskripsi: 'Juara 2 Pilmapres kategori Pratama Tingkat Fakultas Keguruan dan Ilmu Pendidikan.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/vHZ0P2R1/Whats-App-Image-2026-06-06-at-13-32-081.jpg'
+    },
+    {
+        id: 11,
+        kategori: 'akademik',
+        judul: 'Pilmapres kategori Pratama',
+        deskripsi: 'Juara 3 Pilmapres kategori Pratama Tingkat Fakultas Keguruan dan Ilmu Pendidikan.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/ZK5wfskW/Whats-App-Image-2026-06-06-at-13-32-09.jpg'
+    },
+    {
+        id: 12,
+        kategori: 'akademik',
+        judul: 'Pilmapres kategori Pratama',
+        deskripsi: 'Juara 1 Pilmapres kategori Pratama Tingkat Fakultas Keguruan dan Ilmu Pendidikan.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/BQnmh7WX/Whats-App-Image-2026-06-06-at-13-32-091.jpg'
+    },
+    {
+        id: 13,
+        kategori: 'akademik',
+        judul: 'Lomba Essay Tingkat Nasional 7',
+        deskripsi: 'Lolos Pilmapres Perwakilan Tingkat Provinsi Mewakili Univerrsitas Trunodjoyo Madura.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/5N2sPKcj/Whats-App-Image-2026-06-06-at-13-32-092.jpg'
+    },
+    {
+        id: 14,
+        kategori: 'akademik',
+        judul: 'Asistensi Mengajar Internasional 2026',
+        deskripsi: 'Lolos Asistensi Mengajar Internasional 2026.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/qMv1mDf7/Whats-App-Image-2026-06-06-at-13-32-11.jpg'
+    },
+    {
+        id: 15,
+        kategori: 'akademik',
+        judul: 'Asistensi Mengajar Internasional 2026',
+        deskripsi: 'Lolos Asistensi Mengajar Internasional 2026.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/J4zpTYwr/Whats-App-Image-2026-06-06-at-13-32-113.jpg'
+    },
+    {
+        id: 16,
+        kategori: 'akademik',
+        judul: 'International Canvas Business Competition',
+        deskripsi: 'Top 6 Interrnational Canvas Business Competition.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/yY8Lfpq6/Whats-App-Image-2026-06-06-at-13-32-122.jpgUTM'
+    },
+    {
+        id: 17,
+        kategori: 'akademik',
+        judul: 'ONMIPA Bidang Kimia Tingkat Nasional',
+        deskripsi: 'Lolos ONMIPA Bidang Kimia Tingkat Nasional Mewakili Universitas Trunodjoyo Madura 2026.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/NfjdNChf/Whats-App-Image-2026-06-06-at-13-32-13.jpg'
+    },
+    
+    // {
+    //     id: 18,
+    //     kategori: 'nonakademik',
+    //     judul: 'Juara 1 Futsal Antar Jurusan',
+    //     deskripsi: 'Memenangkan turnamen futsal tahunan tingkat fakultas dengan rekor tak terkalahkan.',
+    //     tanggal: '15 Agustus 2025',
+    //     tim: 'Tim Olahraga HIMAPIPA',
+    //     foto: 'https://via.placeholder.com/400x280/3b82f6/ffffff?text=Futsal+Juara'
+    // }
 ];
 // Fungsi render kartu prestasi
 // Fungsi render kartu PRESTASI (Format Kembar dengan Proker)
@@ -354,11 +464,7 @@ function renderPrestasi(filterValue) {
                     <div class="flex items-center gap-2">
                         <i class="far fa-calendar-alt text-[10px]" style="color: ${color}"></i>
                         <span>${prestasi.tanggal}</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <i class="far fa-user text-[10px]" style="color: ${color}"></i>
-                        <span>${prestasi.tim}</span>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         `;
