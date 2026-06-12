@@ -150,8 +150,8 @@ const prokerData = [
         divisi: 'keagamaan',
         judul: 'Buka Puasa Bersama & sharing hearing',
         deskripsi: 'Mellakukan kegiatan buka puasa bersama dan sharing hearing untuk mempererat tali silaturahmi.',
-        foto: 'https://i.postimg.cc/JznD8bPw/3.jpg',
-        tanggal: '15 Maret 2025',
+        foto: 'https://i.postimg.cc/9z5fmPNj/2.png',
+        tahun: '2026',
         tim: 'Pengurus HIMAPIPA 2026'
     },
     {
@@ -159,8 +159,8 @@ const prokerData = [
         divisi: 'kaderisasi',
         judul: 'pelantikan pengurus HIMAPIPA 2026',
         deskripsi: 'Pelantikan pengurus HIMAPIPA 2026 untuk periode 2026-2027 dengan penuh semangat dan harapan baru.',
-        foto: 'https://i.postimg.cc/MpTMwytC/2.jpg',
-        tanggal: '22 April 2026',
+        foto: 'https://i.postimg.cc/8sQCpdXn/1.png',
+        tahun: '2026',
         tim: 'Pengurus HIMAPIPA 2026'
     },
     {
@@ -169,7 +169,7 @@ const prokerData = [
         judul: 'LKMM',
         deskripsi: 'Latihan Keterampilan Manajemen Mahasiswa untuk membekali anggota dengan kemampuan organisasi dan kepemimpinan.',
         foto: 'https://i.postimg.cc/W13FVMXL/1.jpg',
-        tanggal: '10 Maret 2024',
+        tahun: '2026',
         tim: 'Pengurus HIMAPIPA 2026'
     },
     // {
@@ -237,7 +237,7 @@ function createProkerCardElement(proker, index) {
             <div class="space-y-1 text-[11px] text-gray-500 pt-2 border-t border-gray-50 mt-auto">
                 <div class="flex items-center gap-2">
                     <i class="far fa-calendar-alt text-[10px]" style="color: ${prokerColorMap[proker.divisi]}"></i>
-                    <span>${proker.tanggal}</span>
+                    <span>${proker.tahun}</span>
                 </div>
                 <div class="flex items-center gap-2">
                     <i class="far fa-user text-[10px]" style="color: ${prokerColorMap[proker.divisi]}"></i>
