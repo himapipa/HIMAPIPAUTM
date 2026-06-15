@@ -286,7 +286,7 @@ const prestasiData = [
         kategori: 'akademik',
         judul: 'Lomba Essay Tingkat Nasional 7',
         deskripsi: 'Mendapatkan Bronze Medal Lomba Essay Tingkat Nasional 7.',
-        tanggal: '2026',       
+        tanggal: '2026',
         foto: 'https://i.postimg.cc/m2gmdpxj/Whats-App-Image-2026-06-06-at-13-32-04.jpg'
     },
     {
@@ -409,7 +409,15 @@ const prestasiData = [
         tanggal: '2026',
         foto: 'https://i.postimg.cc/NfjdNChf/Whats-App-Image-2026-06-06-at-13-32-13.jpg'
     },
-    
+    {
+        id: 17,
+        kategori: 'akademik',
+        judul: 'Inspiring Lecturer Program',
+        deskripsi: 'Terpilihnya Dalam Inspiring Lecturer Program (ILP) Paragon Tahun 2026.',
+        tanggal: '2026',
+        foto: 'https://i.postimg.cc/L6Ns2Bb8/Whats-App-Image-2026-06-15-at-21-35-17.jpg'
+    },
+
     // {
     //     id: 18,
     //     kategori: 'nonakademik',
