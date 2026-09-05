@@ -279,7 +279,7 @@ const prestasiData = [
         judul: 'Edutalk Fair Competition x UNDIP 2026',
         deskripsi: 'Mendapatkan Bronze Medal Essay National Competition.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/YqDbTNkF/Whats-App-Image-2026-06-06-at-13-32-01.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEUYv0spJ8DFJ-73kFCULwIkBUAOBt0QXdYpRPv21pl-t4m_hFkd2VJ7GoMylD3nIb2_s0T4xvDkdYi6pDJ-ML1QbttSSzWWIOGKm-C0hWx3Oe9tA_JerSIPRLzC-MqTmiLPjX1zK1ufszBpSk28mkWjC3xECTl3FBfbm-IYwSzJ9_KBIhamZZHURJ1pM/s320/WhatsApp%20Image%202026-06-06%20at%2013.32.01.jpeg'
     },
     {
         id: 2,
@@ -287,7 +287,7 @@ const prestasiData = [
         judul: 'Lomba Essay Tingkat Nasional 7',
         deskripsi: 'Mendapatkan Bronze Medal Lomba Essay Tingkat Nasional 7.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/m2gmdpxj/Whats-App-Image-2026-06-06-at-13-32-04.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFjzpcifzJXqfGJx6jZDkLJUckxyOmrgP_XsbHZS0ctI1TjzRMsK6td60NUtjpiyoRAqm5KvhcOmpvPFP2_dsiKFUdjJNZkC65MI_KU9MgtONr9euih7LulqZTGh_2kzPfBq92bWkXvANyW3G6hhlxUZ0SoflxeH55gFcO7SuruR0iqKrpZqmL7ziW5jI/s320/WhatsApp%20Image%202026-06-06%20at%2013.32.04.jpeg'
     },
     {
         id: 3,
@@ -295,7 +295,7 @@ const prestasiData = [
         judul: 'Lomba Essay Tingkat Nasional 7',
         deskripsi: 'Mendapatkan Bronze Medal Lomba Essay Tingkat Nasional 7.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/BQnmh7Wg/Whats-App-Image-2026-06-06-at-13-32-05.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMP48pR-7brpsvlShPOkM89cChEzFz1FOsQvf2cGlqflNFPgazmq6WGp_GssFnNZsNnVnJPMgFgjJN2EFEihaVbCEirtSh1KItGoeKgNgeU1NEzibR-glPe9ABtlo6N1HB7vzmB6JJj3jlemXpd61NGjAwHZmBdRSbmOr7YU5KTUBGi3AlpZhyphenhyphenO46P2QA/s320/WhatsApp%20Image%202026-06-06%20at%2013.32.05.jpeg'
     },
     {
         id: 4,
@@ -303,7 +303,7 @@ const prestasiData = [
         judul: 'Forum Indonesia Muda 2',
         deskripsi: 'Mendapatkan Bronze Medal Forum Indonesia Muda 2.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/TY3tkN8c/Whats-App-Image-2026-06-06-at-13-32-06.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirGPJk9RK0TJk6VkIMyxyzBvtqggfpQE4Vjpzq4q2N_F6SByMjOXv1yEVuAIaHmDG5vQahJi5bHU7b0sRgbdwvduAQPo0kLMJrjxkOKLQxPMR1AmIkCpcTAFYjIihOUtsYtfnpOSGBqmIxiWoQEoZDbpCjoZX4uV-2CklYXTvd5rUpvGY9j7LDPtOy2q0/s320/WhatsApp%20Image%202026-06-06%20at%2013.32.06.jpeg'
     },
     {
         id: 5,
@@ -311,7 +311,7 @@ const prestasiData = [
         judul: 'Forum Indonesia Muda 2',
         deskripsi: 'Mendapatkan Bronze Medal Forum Indonesia Muda 2.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/pXLs0cNJ/Whats-App-Image-2026-06-06-at-13-32-061.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMP48pR-7brpsvlShPOkM89cChEzFz1FOsQvf2cGlqflNFPgazmq6WGp_GssFnNZsNnVnJPMgFgjJN2EFEihaVbCEirtSh1KItGoeKgNgeU1NEzibR-glPe9ABtlo6N1HB7vzmB6JJj3jlemXpd61NGjAwHZmBdRSbmOr7YU5KTUBGi3AlpZhyphenhyphenO46P2QA/s1040/WhatsApp%20Image%202026-06-06%20at%2013.32.05.jpeg'
     },
     {
         id: 6,
@@ -319,7 +319,7 @@ const prestasiData = [
         judul: '2nd International Student Competition',
         deskripsi: 'Mendapatkan Bronze Medal 2nd International Student Competition.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/GhmXMg0G/Whats-App-Image-2026-06-06-at-13-32-07.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJFfgAMMFtenFhAJ6Yo9pHQKGqp6lQ3Qu33-l1sL7e7ZTPpAh4jLLbyLjbbu9N82khvDzBiDkMLNlDme-tszN9m_u_GPSoUW3bHd3c-6uUGyZAby12toSoLBr2_QnFSj1U52IxPuDP89Yna281gub-8FHYjw2sWDlopMzHsyyypTpzttzUcT1aSEvkQiM/s1055/WhatsApp%20Image%202026-06-06%20at%2013.32.07.jpeg'
     },
     {
         id: 7,
@@ -327,7 +327,7 @@ const prestasiData = [
         judul: '2nd International Student Summit',
         deskripsi: 'Mendapatkan Bronze Medal 2nd International Student Summit.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/02yVtXgp/Whats-App-Image-2026-06-06-at-13-32-071.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicBUMMfYaYII0rB5FnWvWwIFhIeT0GtIcy4HSIAHvY2R9n8pWIYv-dZPVyouyDc_uqvPA3MF1GreLfHnZYu8J71YDaoGCd39J_C-cci31zz4BnSVsEMYhmZPk873tAHPZljt7HcAaPJeO_qxfbTSQC8qPjsRgoeWw1rNd26a3xeBVZHhVPrI6k_8C-ImY/s1055/WhatsApp%20Image%202026-06-06%20at%2013.32.071.jpeg'
     },
     {
         id: 8,
@@ -335,7 +335,7 @@ const prestasiData = [
         judul: '2nd International Student Competition',
         deskripsi: 'Mendapatkan Silver Medal 2nd International Student Competition.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/Kv809pX3/Whats-App-Image-2026-06-06-at-13-32-072.jpg    '
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSDAb7qq23TA5VBuNYtgDWMqAU_t3vQfEz4IWXMKOI94wnD-Ig8rAZ95VgN84lKinstPCgIpLBl2DySgPhQ3FtdbT9NxcHzu6Z3BifK0yYc7XqRjQaXg056X2CO4nTHm4I4DIMbSAQ7ZIor01gVL8F0bTGOaKNW8zJqbubGW_oUTuHFDu2dNZ-5tn4Nrg/s1055/WhatsApp%20Image%202026-06-06%20at%2013.32.072.jpeg    '
     },
     {
         id: 9,
@@ -343,7 +343,7 @@ const prestasiData = [
         judul: 'Lomba Essay Futura Innovation Hub x UIN Sunan Gunung Djati',
         deskripsi: 'Mendapatkan Honorobel Medal Bidang Gizi dan Kesehatan.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/Kv809pXk/Whats-App-Image-2026-06-06-at-13-32-08.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd5zi0t0jRNBtAg9_6rXuDAlc7diHPIGAId1opN3q9bg3zJCl-2Utw69aID3g5mgX89auPnMCo5nKU348N5E3ycQyaRihLwtaeu11WPBm-COA1mReF1ZheaCqABCdDe4LN86SX82MPEMBIQS8Wq1uQaQ6IcjJEHYTTbzLqxRdEEq9vDa2sVM_AO4zPu7w/s1280/WhatsApp%20Image%202026-06-06%20at%2013.32.08.jpeg'
     },
     {
         id: 10,
@@ -351,7 +351,7 @@ const prestasiData = [
         judul: 'Pilmapres kategori Pratama',
         deskripsi: 'Juara 2 Pilmapres kategori Pratama Tingkat Fakultas Keguruan dan Ilmu Pendidikan.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/vHZ0P2R1/Whats-App-Image-2026-06-06-at-13-32-081.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfXLa29sMuhwHFyFYGjQJtd5le1IHvX-ERlU8lfLtCw_HKpujnFHB0UgF3Vhes8A7o3ZbmBSYyPEmR69deKK9flEnMg-Ay97-mNUERUxt9Muz1_A_wbZjtqPwVcoVEg_DbabRdrM-r1LZ0sIbrWQOL_-lp2aDGN45RivDnq5tEY2f048LrXOHwkYa6kNs/s1600/WhatsApp%20Image%202026-06-06%20at%2013.32.081.jpeg'
     },
     {
         id: 11,
@@ -359,7 +359,7 @@ const prestasiData = [
         judul: 'Pilmapres kategori Pratama',
         deskripsi: 'Juara 3 Pilmapres kategori Pratama Tingkat Fakultas Keguruan dan Ilmu Pendidikan.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/ZK5wfskW/Whats-App-Image-2026-06-06-at-13-32-09.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLo69EiT2Ppfb1zTEaCzdSYzp6lBXz3nJ3_PhXVDzzvI25XvUnaic5NOvNDKtMvmwmRhcQiakvT-2K5Sjg_xpvzKitrvWmR_BiiTyV-TFpwbPZXnxh_ptmSYtgklqNy9MO_1TReQ5bq7Wt8XE50LzjUwSdZRxfYXBHFRaxcgoV8cBAd6eKiI6tD4jpq_o/s1600/WhatsApp%20Image%202026-06-06%20at%2013.32.09.jpeg'
     },
     {
         id: 12,
@@ -367,7 +367,7 @@ const prestasiData = [
         judul: 'Pilmapres kategori Pratama',
         deskripsi: 'Juara 1 Pilmapres kategori Pratama Tingkat Fakultas Keguruan dan Ilmu Pendidikan.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/BQnmh7WX/Whats-App-Image-2026-06-06-at-13-32-091.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZOG6xwSwaEEKqK4ZZFt4UHneSRw0zBi-P7MZuMIh4eYH4fWNBEe96NKyXYZCmuzlUibIGBbNz5-4b8DjUtpynfHkboHMxb8aV6iFImWuyJ9aFSaBIwZ84rpBTabSniuxEw9zx_x6aqXVsH0jXEPZWvzkYdCbhUVjn5ZpHHhRh0vTMZ9c2LuBM61IuH_U/s1040/WhatsApp%20Image%202026-06-06%20at%2013.32.091.jpeg'
     },
     {
         id: 13,
@@ -375,7 +375,7 @@ const prestasiData = [
         judul: 'Lomba Essay Tingkat Nasional 7',
         deskripsi: 'Lolos Pilmapres Perwakilan Tingkat Provinsi Mewakili Univerrsitas Trunodjoyo Madura.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/5N2sPKcj/Whats-App-Image-2026-06-06-at-13-32-092.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimHQOvpPsIfSakoSBqOeVFjYAJD-8qsrKogF-F-vBpQhT8UIUfdxxhpVomQzXqepedsmzXVlyMXaxqyfuZLr2EE69jIoQQaJvR2waQOwCXxuuu9zm0rp2NdguaeR1O1oAQygLFm8TaQURhxt3RMWio7pFdT_L7JxvYy_k4L0aSr-ouFP5KTPc5KoGjpQg/s1040/WhatsApp%20Image%202026-06-06%20at%2013.32.092.jpeg'
     },
     {
         id: 14,
@@ -383,7 +383,7 @@ const prestasiData = [
         judul: 'Asistensi Mengajar Internasional 2026',
         deskripsi: 'Lolos Asistensi Mengajar Internasional 2026.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/qMv1mDf7/Whats-App-Image-2026-06-06-at-13-32-11.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpWXQcS4mU8NytxdI0a803gsMRe6j1pgV2gpcRG38wq1NDso0RCUew4DVLSYzZIlVbRYFxISopd2rHpfestGLnpyc1da87jyckb7bycfgYEU4nAkyVwzPaek1KI5XpF22lcoYuPyFviPlh-5hG4kJJEEFH6-TLWxBIqonlvSDKsAvnWoMY4PuFAvZ4Mvg/s1280/WhatsApp%20Image%202026-06-06%20at%2013.32.11.jpeg'
     },
     {
         id: 15,
@@ -391,7 +391,7 @@ const prestasiData = [
         judul: 'Asistensi Mengajar Internasional 2026',
         deskripsi: 'Lolos Asistensi Mengajar Internasional 2026.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/J4zpTYwr/Whats-App-Image-2026-06-06-at-13-32-113.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-YTbPSiCDmmLNTWXICdfP1hJkAfpTkd1g90ck0MaOjsQLANudJlHA-w2ZhGhi8Kz0VmpT316rDyaUXVYUp-qdXBNhcKRoqV5jg8tDm5obDp7klQo8nq-mSxwb6EdUNqHFx5nO-xKfU6iZmuAG7kNzvY64ylXmYIQYTkxcPg8XToeB1hyfNc3jAwxNmt4/s1280/WhatsApp%20Image%202026-06-06%20at%2013.32.113.jpeg'
     },
     {
         id: 16,
@@ -399,7 +399,7 @@ const prestasiData = [
         judul: 'International Canvas Business Competition',
         deskripsi: 'Top 6 Interrnational Canvas Business Competition.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/yY8Lfpq6/Whats-App-Image-2026-06-06-at-13-32-122.jpgUTM'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5jxK0ydz7jFJj8UnLT6WI3q-3lgjiqqNw4rXLnL4N_G6bV2WCyauDC5PD4xkraX061AgVpmRpEAwkacYiKoHZkwLhmu8Cmxwd37Y-TYjFNxDCWq3K9dwlcdDupVT8nTqvuLOiqnXOeSiBqZXnKUjWcW_hbZSSIoiWLpI277WdC2OcyJN2NgiVpSTlqNI/s1280/WhatsApp%20Image%202026-06-06%20at%2013.32.122.jpeg'
     },
     {
         id: 17,
@@ -407,7 +407,7 @@ const prestasiData = [
         judul: 'ONMIPA Bidang Kimia Tingkat Nasional',
         deskripsi: 'Lolos ONMIPA Bidang Kimia Tingkat Nasional Mewakili Universitas Trunodjoyo Madura 2026.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/NfjdNChf/Whats-App-Image-2026-06-06-at-13-32-13.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtoxSl6pW4tbg68dGW706K7FjxlZV-Un6n06Xkxd8599N0nusYbclYFmLxMoUJSrjkbMbgj8ANlkfDoPNaSum4dBpiD3fafnuguOF1rOzejP10HmCcvdf976OmUUQZyvY2Q0wWXAYbbtU-uIsAyEUkcLIuIvwVkDt834oRlicfGRbJbqOF4DFJPWiQb8E/s1280/WhatsApp%20Image%202026-06-06%20at%2013.32.13.jpeg'
     },
     {
         id: 18,
