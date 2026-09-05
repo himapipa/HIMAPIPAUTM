@@ -150,7 +150,7 @@ const prokerData = [
         divisi: 'keagamaan',
         judul: 'Buka Puasa Bersama & sharing hearing',
         deskripsi: 'Mellakukan kegiatan buka puasa bersama dan sharing hearing untuk mempererat tali silaturahmi.',
-        foto: 'https://i.postimg.cc/9z5fmPNj/2.png',
+        foto: 'https://blogger.googleusercontent.com/img/a/AVvXsEjiLT9GTzSQ4EJRKHP8_fBI0ZaWr_mRXwZrchZgQryM3GBWmPzXJlRVvqXBfxJbL4dez3AgIqsOh1aCQjoSPhSubNuKrFbvTWuYqTm1wNugMKOpjL_LX-zPLLL7VvNuatSeZB6uy5_svvJbxHY4Hqmm3ES9TY5shg-jVGHV6gnjNtVbPPvc_8s6_e7fEsw',
         tahun: '2026',
         tim: 'Pengurus HIMAPIPA 2026'
     },
@@ -159,7 +159,7 @@ const prokerData = [
         divisi: 'kaderisasi',
         judul: 'pelantikan pengurus HIMAPIPA 2026',
         deskripsi: 'Pelantikan pengurus HIMAPIPA 2026 untuk periode 2026-2027 dengan penuh semangat dan harapan baru.',
-        foto: 'https://i.postimg.cc/8sQCpdXn/1.png',
+        foto: 'https://blogger.googleusercontent.com/img/a/AVvXsEgukBsXPSuLdGQ9dbltbVR4bs6Ep1L70KxVIe557g4omDXEn1Nm2ek8qsVOi0HGXK4UDYFlZvkWRAfGiToeIpEPskIHonHWChdy_7IPWIeGu4z3fJ3nF4_f_cttHtToAE4FU5qdH2awzs2x0kFXUaFzebu5ykJYkVXJFNhkOnSpiUwIFlTws1_vHojlMxA',
         tahun: '2026',
         tim: 'Pengurus HIMAPIPA 2026'
     },
@@ -168,7 +168,7 @@ const prokerData = [
         divisi: 'kaderisasi',
         judul: 'LKMM',
         deskripsi: 'Latihan Keterampilan Manajemen Mahasiswa untuk membekali anggota dengan kemampuan organisasi dan kepemimpinan.',
-        foto: 'https://i.postimg.cc/W13FVMXL/1.jpg',
+        foto: 'https://blogger.googleusercontent.com/img/a/AVvXsEjxtOz7I90cLJQHN4_stayvnSZtos9MVU8hwWCczvqLnneUgU8W7H8OL8GBiBbUWUC0JdMV4ZKFfwes4RLcAS_vPcd1kA5AxWkZXH2oXxo8laXU9dVqTX40LgFKmVIE3sQUMaRhK_H3ZbVxEUSplEsqi0oLaweL04-iz1e4GWludBdsgH630RkjlT4qmjo',
         tahun: '2026',
         tim: 'Pengurus HIMAPIPA 2026'
     },
