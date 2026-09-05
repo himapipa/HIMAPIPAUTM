@@ -55,7 +55,6 @@ body {
 /* Memastikan gambar/iframe responsif */
 img, iframe {
     max-width: 100%;
-    height: auto;
 }
 
 /* Memperbaiki padding container di mobile */

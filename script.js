@@ -415,7 +415,7 @@ const prestasiData = [
         judul: 'Inspiring Lecturer Program',
         deskripsi: 'Terpilihnya Dalam Inspiring Lecturer Program (ILP) Paragon Tahun 2026.',
         tanggal: '2026',
-        foto: 'https://i.postimg.cc/L6Ns2Bb8/Whats-App-Image-2026-06-15-at-21-35-17.jpg'
+        foto: 'https://blogger.googleusercontent.com/img/a/AVvXsEhoiud9ksmJJubBhNvKE5_x5GBz8p2TSAiApum6fATUuJQkKTj15Ghhbd5Zfo9Jy8K3saFmnG9mcQRViplQTh2-DvcBi00OM_F615bGCGQzPF5mEWa81VHHPdL-gJ9kl9bkSafLY9s8ZQ6sl4ccMEX4sExgpsgfQXauUBxfREbNXQqJF-ogfwfz468w0ks'
     },
 
     // {
