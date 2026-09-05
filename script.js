@@ -410,7 +410,7 @@ const prestasiData = [
         foto: 'https://i.postimg.cc/NfjdNChf/Whats-App-Image-2026-06-06-at-13-32-13.jpg'
     },
     {
-        id: 17,
+        id: 18,
         kategori: 'akademik',
         judul: 'Inspiring Lecturer Program',
         deskripsi: 'Terpilihnya Dalam Inspiring Lecturer Program (ILP) Paragon Tahun 2026.',
